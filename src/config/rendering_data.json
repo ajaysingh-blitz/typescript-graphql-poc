@@ -1,0 +1,247 @@
+
+{ 
+  "data" : {
+    "type": "set_value",
+    "args": {
+      "values": {
+        "entries": {
+          "values": [
+          {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree1",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree2",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree3",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            },
+            {
+              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+              "title": "Tree4",
+              "effective_price": "100",
+              "selling_price": "200",
+              "offer_value": "50%"
+            }
+          ]
+        },
+        "template": {
+          "type": "column",
+          "args": {
+            "children": [
+              {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "network_image",
+                    "args": {
+                      "src": "${value['image']}"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "args": {
+                  "padding": {
+                    "all": 8
+                  },
+                  "child": {
+                    "type": "text",
+                    "args": {
+                      "text": "${value['title']}",
+                      "style": {
+                        "color": "#000000",
+                        "fontSize": 20
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "row",
+                "args": {
+                  "children": [
+                    {
+                        "type": "padding",
+                  "args": {
+                    "padding": {
+                      "left": 12,
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12
+                    },
+                    "child": {
+                      "type": "text",
+                      "args": {
+                        "text": "${value['effective_price']}",
+                        "style": {
+                          "color": "#000000",
+                          "fontSize": 12
+                        }
+                      }
+                    }
+                  }
+                    },
+                    {
+                      "type": "text",
+                      "args": {
+                        "text": "${value['selling_price']}",
+                        "style": {
+                          "color": "#000000",
+                          "opacity": 0.5,
+                          "fontSize": 12
+                        }
+                      }
+                    },
+                    {
+                        "type": "padding",
+                  "args": {
+                    "padding": {
+                      "left": 12,
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12
+                    },
+                    "child": {
+                      "type": "text",
+                      "args": {
+                        "text": "${value['offer_value']}",
+                        "style": {
+                          "color": "#88D66C",
+                          "opacity": 0.5,
+                          "fontSize": 12
+                        }
+                      }
+                    }
+                  }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "expanded",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "elevated_button",
+                        "args": {
+                          "style": {
+                            "color": "#000000"
+                          },
+                          "child": {
+                            "type": "text",
+                            "args": {
+                              "text": "ElevatedButton"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "child": {
+        "type": "scaffold",
+        "args": {
+          "appBar": {
+            "type": "app_bar",
+            "args": {
+              "title": {
+                "type": "text",
+                "args": {
+                  "text": "GridView"
+                }
+              }
+            }
+          },
+          "body": {
+            "type": "column",
+            "args": {
+              "mainAxisSize": "min",
+              "children": [
+                {
+                  "type": "padding",
+                  "args": {
+                    "padding": {
+                      "left": 12,
+                      "top": 12,
+                      "right": 12,
+                      "bottom": 12
+                    },
+                    "child": {
+                      "type": "text",
+                      "args": {
+                        "text": "All Products",
+                        "style": {
+                          "color": "#000000",
+                          "fontSize": 21
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "expanded",
+                  "args": {
+                    "child": {
+                      "type": "grid_view",
+                      "args": {
+                        "gridDelegate": {
+                          "crossAxisCount": 2,
+                          "childAspectRatio": 0.5,
+                          "crossAxisSpacing": 8.0,
+                          "mainAxisSpacing": 12.0,
+                          "type": "fixed_cross_axis_count"
+                        },
+                              "children": "${for_each(entries['values'], 'template')}"
+                     }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
