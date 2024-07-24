@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/ajaypratapsingh/typescript-graphql-poc/src/logs/debug/.865e6b323a2df54853aa94f76f09109e808219be-audit.json",
+    "files": [
+        {
+            "date": 1721654967578,
+            "name": "/Users/ajaypratapsingh/typescript-graphql-poc/src/logs/debug/2024-07-22.log",
+            "hash": "36cc2e34ba5d6c846bdc7b9e55b215d9f35bbef386ed645de4fb1cbbc2758a39"
+        },
+        {
+            "date": 1721714336350,
+            "name": "/Users/ajaypratapsingh/typescript-graphql-poc/src/logs/debug/2024-07-23.log",
+            "hash": "9e0f7dff5daa203b1f671970219b2f078f67ad11085b6e943096520658f6b384"
+        },
+        {
+            "date": 1721800467977,
+            "name": "/Users/ajaypratapsingh/typescript-graphql-poc/src/logs/debug/2024-07-24.log",
+            "hash": "3e039c1199de34030c4f8aacc13eec6b854e8e2768377883357fc486e4aed5f9"
+        }
+    ],
+    "hashType": "sha256"
+}

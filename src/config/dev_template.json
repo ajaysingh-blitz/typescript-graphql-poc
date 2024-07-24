@@ -1,0 +1,23 @@
+{
+    "service_name": "graphql-poc",
+    "restart_alert_name": "restart alert name",
+    "database": {
+      "client": "mongodb",
+      "dukandar_aadhar": {
+        "client": "mongodb",
+        "connection": {
+          "host": "",
+          "port": "27017",
+          "user": "",
+          "password": "",
+          "name": ""
+        }
+      }
+    },
+    "server": {
+      "port": 3001
+    },
+    "service": {
+        "health": "graphql"
+      }
+  }
