@@ -7,8 +7,6 @@ class LocalJsonController {
     public getJsonData = async (req: Request, res: Response, next: NextFunction) => {
         console.log(`request ${req}`);
         try {
-            console.log(`inside try`);
-
           return res.status(200).json({
             jsonData
           });

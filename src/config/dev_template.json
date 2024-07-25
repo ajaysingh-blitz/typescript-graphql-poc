@@ -18,6 +18,7 @@
       "port": 3001
     },
     "service": {
-        "health": "graphql"
-      }
+        "health": "graphql",
+        "prashth": "http://aadhar-dash-dash:3025/aadhar-dash/api/v1/internal"
   }
+  } 

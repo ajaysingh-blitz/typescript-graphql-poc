@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import IndexController from '../controllers/index.controller';
 
+
+
 class IndexRoute {
   public path = '/health';
   public routes = Router();

@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { Routes } from '../interfaces/route.interface';
-import localJsonController from '../controllers/LocalJsonController';
 import LocalJsonController from '../controllers/LocalJsonController';
 
 
