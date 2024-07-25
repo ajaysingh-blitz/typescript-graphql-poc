@@ -1,9 +1,9 @@
 import { Router } from 'express';
 import { Routes } from '../interfaces/route.interface';
-import LocalJsonController from '../controllers/LocalJsonController';
+import LocalJsonController from '../controllers/localJsonController';
 
 
-export default class ExternalRoute implements Routes {
+export default class ExternalRoute {
   public path = '/api/v1/platform';
   public routes = Router();
   private localJsonController = new LocalJsonController();

@@ -1,3 +1,4 @@
+import fetch from "node-fetch";
 import { prashth } from "../config";
 
 export default class PrashthInternal {
