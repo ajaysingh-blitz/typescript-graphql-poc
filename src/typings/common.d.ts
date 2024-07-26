@@ -124,8 +124,6 @@ export interface IUser {
   slack_member_id: string;
 }
 
-export type IFileType = Express.Multer.File;
-
 export type UserOptional = CreateOptionals<IUser>;
 
 export interface GetMultipleUsers {

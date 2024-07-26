@@ -10,8 +10,30 @@ export default class PrashthInternal {
    * @returns
    */
    public getPageDetailsById = async (pageId: string) => {
-    return await fetch(`${this.prashthInternal}/page/get-page-info-by-id/${pageId}`, {
-      method: 'GET',
-    }).then(res => res);
+    const headers = {
+      'Accept': 'application/json', 
+      'wm_platform_os': 'android',
+      'wm_seller_website' : 'ajaystore.stage.sdloki.in',
+      'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+      'wm_device_type' : 'mobile',
+      'shopdeck_app_version' : '2.0',
+      'app_version' : '1.0'
+    };
+  
+    try {
+      const response = await fetch(`http://ajaystore.stage.sdloki.in/api/prashth/page/?page_no=0&page_size=5&sale_id=`, {
+        method: 'GET',
+        headers: headers
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data
+      console.log(data);
+    } catch (error) {
+      console.error('Fetch error: ', error);
+    }
   };
 }

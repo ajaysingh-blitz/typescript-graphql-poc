@@ -19,6 +19,6 @@
     },
     "service": {
         "health": "graphql",
-        "prashth": "http://aadhar-dash-dash:3025/aadhar-dash/api/v1/internal"
+        "prashth": "http://ajaystore.stage.sdloki.in/api/prashth/template"
   }
   } 
