@@ -1,0 +1,4 @@
+2024-07-24 12:56:56 error: uncaughtException: ENOENT: no such file or directory, open '../config/rendering_data.json'
+Error: ENOENT: no such file or directory, open '../config/rendering_data.json'
+2024-07-24 12:57:26 error: uncaughtException: ENOENT: no such file or directory, open '../config/rendering_data.json'
+Error: ENOENT: no such file or directory, open '../config/rendering_data.json'

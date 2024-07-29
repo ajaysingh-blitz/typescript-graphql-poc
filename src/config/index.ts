@@ -7,4 +7,5 @@ const filePath = env === 'development' ? `src/config/config.${env}.json` : `dist
 nconf.argv().env().file({ file: 'src/config/dev_template.json' });
 export const service_name = nconf.get('service_name');
 export const port = nconf.get('server').port;
-
+nconf.argv().env().file({ file: 'src/config/rendering_data.json' });
+export const jsonData = nconf.get('data');
