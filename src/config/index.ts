@@ -20,6 +20,8 @@ nconf.argv().env().file({ file: 'src/config/rendering_data.json' });
 export const jsonData = nconf.get('data');
 nconf.argv().env().file({ file: 'src/config/rendering_data_ui_body.json' });
 export const jsonDataUI = nconf.get('body');
+nconf.argv().env().file({ file: 'src/config/carousel.json' });
+export const carousel = nconf.get('data');
 
 
 let config = {} as IConfig;

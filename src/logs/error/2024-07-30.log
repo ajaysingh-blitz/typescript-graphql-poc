@@ -888,6 +888,7 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
+<<<<<<< HEAD
 2024-07-30 13:07:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
 [96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m48[0m - [91merror[0m[90m TS1110: [0mType expected.
 
@@ -932,3 +933,6 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
+=======
+
+>>>>>>> 7bc42e60813ac40d8d01cc1271081c5c4dac4537

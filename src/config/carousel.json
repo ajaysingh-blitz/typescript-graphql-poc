@@ -1,0 +1,16 @@
+
+{ "data" :
+ {
+    "type": "container",
+    "args": {
+      "height": 130,
+      "child": {
+        "type": "list_view",
+        "args": {
+          "scrollDirection": "horizontal",
+          "children": "${for_each(entries['values'][0]['entities'], 'context_media_template')}"
+        }
+      }
+    }
+ }
+}
