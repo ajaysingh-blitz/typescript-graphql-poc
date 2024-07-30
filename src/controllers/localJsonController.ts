@@ -14,6 +14,12 @@ class LocalJsonController {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {
             console.log(`inside getPageDetailsById`)
             data = result.data.widgets;
+
+            result.data.widgets.forEach(element => {
+              if(element.type == "collection_posters" && element.layout == "carousel") {
+                console.log("inside foreach and for element type collection_posters and carousel")
+              }
+            });
             jsonData.args.values.entries.values = data;
             jsonData.args.child.args.body = jsonDataUI;
 
