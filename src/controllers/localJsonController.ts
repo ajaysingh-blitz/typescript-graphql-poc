@@ -17,9 +17,40 @@ class LocalJsonController {
 
             result.data.widgets.forEach(element => {
               if(element.type == "collection_posters" && element.layout == "carousel") {
-                console.log("inside foreach and for element type collection_posters and carousel")
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              } 
+              else if(element.type == "testimonial" && element.layout == "carousel"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "content_text_and_media" && element.layout == "multiple"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "product_group" && element.layout == "carousel"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "product_group" && element.layout == "grid"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "video_cross_link" && element.layout == "single"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "video_cross_link" && element.layout == "multiple"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "banner_cross_link" && element.layout == "multiple"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "banner_cross_link_full" && element.layout == "single"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "website_navigator" && element.layout == "single"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              }
+              else if(element.type == "product_list" && element.layout == "carousel"){
+                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
               }
             });
+            
             jsonData.args.values.entries.values = data;
             jsonData.args.child.args.body = jsonDataUI;
 

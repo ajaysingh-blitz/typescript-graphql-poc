@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\ShopDeck\\typescript-graphql-poc\\src\\logs\\debug\\.cbce6508af6a2ff010a278ee00533c9500255277-audit.json",
+    "files": [
+        {
+            "date": 1722324151807,
+            "name": "C:\\ShopDeck\\typescript-graphql-poc\\src\\logs\\debug\\2024-07-30.log",
+            "hash": "5088de6c0f4594fa651518f59fb92c09c05ab5e31793ed743e7a7b6d0ceaa34d"
+        }
+    ],
+    "hashType": "sha256"
+}

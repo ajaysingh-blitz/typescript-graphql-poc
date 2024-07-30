@@ -434,3 +434,457 @@ TSError: ⨯ Unable to compile TypeScript:
 TypeError: Cannot read properties of undefined (reading 'forEach')
     at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:18:39
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-07-30 12:57:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m               else if()
+[7m  [0m [91m                      ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m22[0m:[93m23[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m               else if()
+[7m  [0m [91m                      ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:57:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:57:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:57:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:58:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:58:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m23[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m             });
+[7m  [0m [91m            ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:58:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m84[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m20[0m                 console.log('inside foreach and for element type ${} and carousel")
+[7m  [0m [91m                                                                                   [0m
+[96msrc/controllers/localJsonController.ts[0m:[93m21[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m               }
+[7m  [0m [91m              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m84[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m20[0m                 console.log('inside foreach and for element type ${} and carousel")
+[7m  [0m [91m                                                                                   [0m
+[96msrc/controllers/localJsonController.ts[0m:[93m21[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m               }
+[7m  [0m [91m              ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:58:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel")
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                         ~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                              ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                               ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                            ~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                        ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m43[0m:[93m36[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m43[0m export default LocalJsonController;
+[7m  [0m [91m                                   [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel")
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                         ~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                              ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                               ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                            ~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                        ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m43[0m:[93m36[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m43[0m export default LocalJsonController;
+[7m  [0m [91m                                   [0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:58:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel1)
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                         ~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                              ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                               ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                            ~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                        ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m43[0m:[93m36[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m43[0m export default LocalJsonController;
+[7m  [0m [91m                                   [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel1)
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                         ~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                   ~~~~~~~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                              ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                               ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                            ~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m81[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m30[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m30[0m             console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
+[7m  [0m [91m                                                                                        ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m43[0m:[93m36[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m43[0m export default LocalJsonController;
+[7m  [0m [91m                                   [0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:59:00 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel1`)
+[7m  [0m [91m                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and carousel1`)
+[7m  [0m [91m                                                                   ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:59:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and `)
+[7m  [0m [91m                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and `)
+[7m  [0m [91m                                                                   ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:59:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and ${}`)
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m76[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and ${}`)
+[7m  [0m [91m                                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m68[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and ${}`)
+[7m  [0m [91m                                                                   ~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m76[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${} and ${}`)
+[7m  [0m [91m                                                                           ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 12:59:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${element.type} and ${}`)
+[7m  [0m [91m                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m88[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m                 console.log(`inside foreach and for element type ${element.type} and ${}`)
+[7m  [0m [91m                                                                                       ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
