@@ -4246,3 +4246,253 @@ Error: listen EADDRINUSE: address already in use :::3001
     at Module._compile (node:internal/modules/cjs/loader:1105:14)
     at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1618:23)
     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2024-07-26 13:26:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m17[0m:[93m50[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m             var dataString = JSON.stringify(data.);
+[7m  [0m [91m                                                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m17[0m:[93m50[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m             var dataString = JSON.stringify(data.);
+[7m  [0m [91m                                                 ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:26:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m47[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m18[0m             console.log(`data is ${dataString[]}`);
+[7m  [0m [91m                                              [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m47[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m18[0m             console.log(`data is ${dataString[]}`);
+[7m  [0m [91m                                              [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:28:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:28:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:29:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m               data.data
+[7m  [0m [91m                  ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:29:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m16[0m:[93m32[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m16[0m             data = result.data.;
+[7m  [0m [91m                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m16[0m:[93m32[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m16[0m             data = result.data.;
+[7m  [0m [91m                               ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:31:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.
+[7m  [0m [91m                      [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.
+[7m  [0m [91m                      [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:32:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.
+[7m  [0m [91m                      [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.
+[7m  [0m [91m                      [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:32:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.args.
+[7m  [0m [91m                           [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.args.
+[7m  [0m [91m                           [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:32:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m35[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.args.values.
+[7m  [0m [91m                                  [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m35[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m              jsonData.args.values.
+[7m  [0m [91m                                  [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:33:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m19[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m19[0m             return res.status(200).json({
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m19[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m19[0m             return res.status(200).json({
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-26 13:49:58 error: uncaughtException: Cannot read properties of undefined (reading 'args')
+TypeError: Cannot read properties of undefined (reading 'args')
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:18:22
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-07-26 13:50:14 error: uncaughtException: Cannot read properties of undefined (reading 'args')
+TypeError: Cannot read properties of undefined (reading 'args')
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:18:22
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

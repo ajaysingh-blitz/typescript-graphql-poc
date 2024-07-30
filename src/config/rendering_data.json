@@ -6,68 +6,2207 @@
       "values": {
         "entries": {
           "values": [
-          {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
+            {
+              "short_id": "op8YIrjY",
+              "type": "collection_posters",
+              "layout": "carousel",
+              "title": "Deal Price Stores",
+              "custom_style": {
+                "is_background_image_repeat": false
+              },
+              "entities": [
+                {
+                  "title": "Under 299",
+                  "subtitle": "",
+                  "cta_text": "Explore Now",
+                  "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/1648533035619_5ZUAOBDRWS_2022-03-29_1.jpg",
+                  "link": "/collection/XQcAZriC",
+                  "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/1648533035619_5ZUAOBDRWS_2022-03-29_1.jpg",
+                  "type": "image",
+                  "fit_image": false,
+                  "image_alignment": "left",
+                  "content_alignment": "left"
+                },
+                {
+                  "title": "Under 499",
+                  "subtitle": "",
+                  "cta_text": "Explore Now",
+                  "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/1648533035619_ND0OYS8ZKE_2022-03-29_2.jpg",
+                  "link": "/collection/9W-bmcoV",
+                  "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/1648533035619_ND0OYS8ZKE_2022-03-29_2.jpg",
+                  "type": "image",
+                  "fit_image": false,
+                  "image_alignment": "left",
+                  "content_alignment": "left"
+                },
+                {
+                  "title": "Under 999",
+                  "subtitle": "",
+                  "cta_text": "Explore Now",
+                  "src_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,fo-auto/1648533035619_YLA83KY4H4_2022-03-29_3.jpg",
+                  "link": "/collection/2nQMQ_93",
+                  "preview_url": "https://d1311wbk6unapo.cloudfront.net/NushopCatalogue/tr:f-webp,w-600,q-50,bl-2,fo-auto/1648533035619_YLA83KY4H4_2022-03-29_3.jpg",
+                  "type": "image",
+                  "fit_image": false,
+                  "image_alignment": "left",
+                  "content_alignment": "left"
+                }
+              ],
+              "background_image": ""
             },
             {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree1",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
+              "short_id": "XYkxdJDnNi",
+              "type": "product_group",
+              "layout": "grid",
+              "sub_type": "all_products",
+              "title": "all products",
+              "entities": [
+                {
+                  "short_id": "HpIK9AD5",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "brown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "66751990e48913adf863dc59"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 240,
+                    "short_id": "QgvphIXK",
+                    "mrp": 290,
+                    "selling_price": 240
+                  },
+                  "effective_price": "₹240",
+                  "mrp": "₹290",
+                  "mrp_display_string": "₹290",
+                  "is_oos": false,
+                  "mrp_numeric": 290,
+                  "selling_price_numeric": 240,
+                  "effective_price_numeric": 240,
+                  "effective_price_display_string": "₹240",
+                  "show_mrp": true,
+                  "discount": 17.24137931034483,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 90,
+                      "selling_price": 240
+                    },
+                    {
+                      "size": "M",
+                      "sku_id": "QZ0A7rVe",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 80,
+                      "selling_price": 2400
+                    }
+                  ],
+                  "all_grouped_skus_data": [
+                    {
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "colour": "",
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "QgvphIXK",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 90,
+                          "selling_price": 240
+                        },
+                        {
+                          "size": "M",
+                          "sku_id": "QZ0A7rVe",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 80,
+                          "selling_price": 2400
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "AMF4g-_r",
+                      "product_id": "olEOF52N",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/mens_jipa_015E7R5OO1_2024-06-21_1.jpg",
+                      "selling_price": 120,
+                      "sizes": [
+                        {
+                          "size": "L",
+                          "sku_id": "AMF4g-_r",
+                          "product_id": "olEOF52N",
+                          "quantity": 84,
+                          "selling_price": 120
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "_0xQi9W2",
+                      "product_id": "DHly6SQQ",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p007_1718950255162_q1qoqgca1hda383.jpg",
+                      "selling_price": 1600,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "_0xQi9W2",
+                          "product_id": "DHly6SQQ",
+                          "quantity": 75,
+                          "selling_price": 1600
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "XF_LXnYy",
+                      "product_id": "DNjjqPKS",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p008_1718950258789_jqjsw44lwdx8iqh.jpg",
+                      "selling_price": 1700,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "XF_LXnYy",
+                          "product_id": "DNjjqPKS",
+                          "quantity": 58,
+                          "selling_price": 1700
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "kElJUvht",
+                      "product_id": "o8wLDK1t",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p009_1718950263375_xb2moeilq5b8p4w.jpg",
+                      "selling_price": 1800,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "kElJUvht",
+                          "product_id": "o8wLDK1t",
+                          "quantity": 100,
+                          "selling_price": 1800
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "qaCPuU9C",
+                      "product_id": "Kzi8gShe",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p010_1718950267020_g0jub9z1ri9c6pm.jpg",
+                      "selling_price": 190,
+                      "sizes": [
+                        {
+                          "size": "XS",
+                          "sku_id": "qaCPuU9C",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 19,
+                          "selling_price": 190
+                        },
+                        {
+                          "size": "S",
+                          "sku_id": "oU8HTI9b",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 87,
+                          "selling_price": 1900
+                        }
+                      ]
+                    }
+                  ],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 90,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 240,
+                      "mrp": 290,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QgvphIXK",
+                      "sku_id": "p0015_s",
+                      "OOS_updatedAt": "2024-07-19T13:25:23.222Z",
+                      "_id": "6675198ee48913adf863dc53"
+                    },
+                    {
+                      "size": "M",
+                      "quantity": 80,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2400,
+                      "mrp": 2900,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QZ0A7rVe",
+                      "sku_id": "p015_M",
+                      "OOS_updatedAt": "2024-07-08T05:45:32.930Z",
+                      "_id": "66751f53e632f7e8d7e0d311"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/brown/catalogue/HpIK9AD5/QgvphIXK",
+                  "is_customisation_mandatory": true,
+                  "is_customisation_applicable": true,
+                  "customisation_page_short_id": "9JEEBxrVDH",
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "N1J3lo0E",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "dairy milk"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "6675196be48913adf863dbb7"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 1500,
+                    "short_id": "akVmYfXs",
+                    "mrp": 2000,
+                    "selling_price": 1500
+                  },
+                  "effective_price": "₹1500",
+                  "mrp": "₹2000",
+                  "mrp_display_string": "₹2,000",
+                  "is_oos": false,
+                  "mrp_numeric": 2000,
+                  "selling_price_numeric": 1500,
+                  "effective_price_numeric": 1500,
+                  "effective_price_display_string": "₹1,500",
+                  "show_mrp": true,
+                  "discount": 25,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20dairy%20milk.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fdairy-milk%2Fcatalogue%2FN1J3lo0E%2FakVmYfXs&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20dairy%20milk.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fdairy-milk%2Fcatalogue%2FN1J3lo0E%2FakVmYfXs&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "akVmYfXs",
+                      "product_id": "N1J3lo0E",
+                      "quantity": 70,
+                      "selling_price": 1500
+                    }
+                  ],
+                  "all_grouped_skus_data": [
+                    {
+                      "sku_id": "akVmYfXs",
+                      "product_id": "N1J3lo0E",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "colour": "",
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "akVmYfXs",
+                          "product_id": "N1J3lo0E",
+                          "quantity": 70,
+                          "selling_price": 1500
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "cB1RllSa",
+                      "product_id": "zVAF7QLD",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/abcde_C8FGGWK0R8_2024-06-21_1.jpg",
+                      "selling_price": 120,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "cB1RllSa",
+                          "product_id": "zVAF7QLD",
+                          "quantity": 79,
+                          "selling_price": 120
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "PdGfSDqy",
+                      "product_id": "cjfV54ZC",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p001_1718950231324_xym9gz0zh85l9pl.jpg",
+                      "selling_price": 1000,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "PdGfSDqy",
+                          "product_id": "cjfV54ZC",
+                          "quantity": 66,
+                          "selling_price": 1000
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "a1zZysg3",
+                      "product_id": "vDEVGdE-",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p002_1718950235023_q2fybzw6n7lk5uz.jpg",
+                      "selling_price": 1100,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "a1zZysg3",
+                          "product_id": "vDEVGdE-",
+                          "quantity": 60,
+                          "selling_price": 1100
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "OMXKpuN0",
+                      "product_id": "42BHR-J4",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p003_1718950239625_iw70gbe0z9bfmv0.jpg",
+                      "selling_price": 1200,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "OMXKpuN0",
+                          "product_id": "42BHR-J4",
+                          "quantity": 25,
+                          "selling_price": 1200
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "nki9g6pr",
+                      "product_id": "a4_mAX3P",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p004_1718950242291_16axtacm4ng5wnr.jpg",
+                      "selling_price": 1300,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "nki9g6pr",
+                          "product_id": "a4_mAX3P",
+                          "quantity": 20,
+                          "selling_price": 1300
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "J55IEi5A",
+                      "product_id": "w53ylc_k",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p005_1718950246923_11p2jnbfpiwgo6q.jpg",
+                      "selling_price": 1400,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "J55IEi5A",
+                          "product_id": "w53ylc_k",
+                          "quantity": 30,
+                          "selling_price": 1400
+                        }
+                      ]
+                    }
+                  ],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 70,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 1500,
+                      "mrp": 2000,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "akVmYfXs",
+                      "sku_id": "p006_S",
+                      "OOS_updatedAt": "2024-07-04T11:02:11.228Z",
+                      "_id": "66751969e48913adf863dbb1"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/dairy-milk/catalogue/N1J3lo0E/akVmYfXs",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "umosnxwL",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "Maroon And White Checks Premium Gingham Cotton Full Sleeve Shirt For Men"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "667bb8f86ee32c354e86abad"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "type": "image",
+                      "index": 1,
+                      "_id": "667bb8f96ee32c354e86abbe"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "type": "image",
+                      "index": 2,
+                      "_id": "667bb8fb6ee32c354e86abd0"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "type": "image",
+                      "index": 3,
+                      "_id": "667bb8fc6ee32c354e86abe3"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "type": "image",
+                      "index": 4,
+                      "_id": "667bb8fe6ee32c354e86abf7"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "type": "image",
+                      "index": 5,
+                      "_id": "667bb9006ee32c354e86ac0c"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 1299,
+                    "short_id": "IGqhc9Wq",
+                    "mrp": 2599,
+                    "selling_price": 1299
+                  },
+                  "effective_price": "₹1299",
+                  "mrp": "₹2599",
+                  "mrp_display_string": "₹2,599",
+                  "is_oos": false,
+                  "mrp_numeric": 2599,
+                  "selling_price_numeric": 1299,
+                  "effective_price_numeric": 1299,
+                  "effective_price_display_string": "₹1,299",
+                  "show_mrp": true,
+                  "discount": 50.01923816852636,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S/34-36",
+                      "sku_id": "IGqhc9Wq",
+                      "product_id": "umosnxwL",
+                      "quantity": 88,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "M/38-40",
+                      "sku_id": "LbIPag5a",
+                      "product_id": "umosnxwL",
+                      "quantity": 99,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "L/42-44",
+                      "sku_id": "7bGwPUka",
+                      "product_id": "umosnxwL",
+                      "quantity": 399,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "sku_id": "8N43vNID",
+                      "product_id": "umosnxwL",
+                      "quantity": 72,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "sku_id": "Sx7ia2LZ",
+                      "product_id": "umosnxwL",
+                      "quantity": 61,
+                      "selling_price": 1299
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S/34-36",
+                      "quantity": 88,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "IGqhc9Wq",
+                      "sku_id": "Maroon&White_Gingham_S/38",
+                      "OOS_updatedAt": "2024-07-22T07:15:39.960Z",
+                      "_id": "667bb8f56ee32c354e86ab94"
+                    },
+                    {
+                      "size": "M/38-40",
+                      "quantity": 99,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "LbIPag5a",
+                      "sku_id": "Maroon&White_Gingham_M/40",
+                      "OOS_updatedAt": "2024-07-19T10:19:39.976Z",
+                      "_id": "667bb8f56ee32c354e86ab95"
+                    },
+                    {
+                      "size": "L/42-44",
+                      "quantity": 399,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "7bGwPUka",
+                      "sku_id": "Maroon&White_Gingham_L/42",
+                      "OOS_updatedAt": "2024-07-18T05:54:58.748Z",
+                      "_id": "667bb8f56ee32c354e86ab96"
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "quantity": 72,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "8N43vNID",
+                      "sku_id": "Maroon&White_Gingham_XL/44",
+                      "_id": "667bb8f56ee32c354e86ab97"
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "quantity": 61,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "Sx7ia2LZ",
+                      "sku_id": "Maroon&White_Gingham_XXL/46",
+                      "_id": "667bb8f56ee32c354e86ab98"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/Maroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt/catalogue/umosnxwL/IGqhc9Wq",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "n22qF77Y",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "merown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "6675198be48913adf863dc47"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 2300,
+                    "short_id": "4nZny4Pw",
+                    "mrp": 2800,
+                    "selling_price": 2300
+                  },
+                  "effective_price": "₹2300",
+                  "mrp": "₹2800",
+                  "mrp_display_string": "₹2,800",
+                  "is_oos": false,
+                  "mrp_numeric": 2800,
+                  "selling_price_numeric": 2300,
+                  "effective_price_numeric": 2300,
+                  "effective_price_display_string": "₹2,300",
+                  "show_mrp": true,
+                  "discount": 17.857142857142858,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "4nZny4Pw",
+                      "product_id": "n22qF77Y",
+                      "quantity": 91,
+                      "selling_price": 2300
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 91,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2300,
+                      "mrp": 2800,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "4nZny4Pw",
+                      "sku_id": "p0014_S",
+                      "OOS_updatedAt": "2024-07-22T08:06:00.739Z",
+                      "_id": "6675198ae48913adf863dc41"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/merown/catalogue/n22qF77Y/4nZny4Pw",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                }
+              ],
+              "view_all": {
+                "text": "View All",
+                "link": "/collection/all-products"
+              },
+              "custom_style": {
+                "title_alignment": "left",
+                "background_color": "transparent",
+                "is_background_image_repeat": false
+              },
+              "background_image": "",
+              "is_paginated": false,
+              "meta": {
+                "page_no": 1,
+                "has_more": false,
+                "total_count": 0
+              }
             },
             {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree2",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
+              "short_id": "KNtnBbfj-X",
+              "type": "product_group",
+              "layout": "grid",
+              "sub_type": "best_sellers",
+              "title": "best sellers",
+              "entities": [
+                {
+                  "short_id": "HpIK9AD5",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "brown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "66751990e48913adf863dc59"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 240,
+                    "short_id": "QgvphIXK",
+                    "mrp": 290,
+                    "selling_price": 240
+                  },
+                  "effective_price": "₹240",
+                  "mrp": "₹290",
+                  "mrp_display_string": "₹290",
+                  "is_oos": false,
+                  "mrp_numeric": 290,
+                  "selling_price_numeric": 240,
+                  "effective_price_numeric": 240,
+                  "effective_price_display_string": "₹240",
+                  "show_mrp": true,
+                  "discount": 17.24137931034483,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 90,
+                      "selling_price": 240
+                    },
+                    {
+                      "size": "M",
+                      "sku_id": "QZ0A7rVe",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 80,
+                      "selling_price": 2400
+                    }
+                  ],
+                  "all_grouped_skus_data": [
+                    {
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "colour": "",
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "QgvphIXK",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 90,
+                          "selling_price": 240
+                        },
+                        {
+                          "size": "M",
+                          "sku_id": "QZ0A7rVe",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 80,
+                          "selling_price": 2400
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "AMF4g-_r",
+                      "product_id": "olEOF52N",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/mens_jipa_015E7R5OO1_2024-06-21_1.jpg",
+                      "selling_price": 120,
+                      "sizes": [
+                        {
+                          "size": "L",
+                          "sku_id": "AMF4g-_r",
+                          "product_id": "olEOF52N",
+                          "quantity": 84,
+                          "selling_price": 120
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "_0xQi9W2",
+                      "product_id": "DHly6SQQ",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p007_1718950255162_q1qoqgca1hda383.jpg",
+                      "selling_price": 1600,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "_0xQi9W2",
+                          "product_id": "DHly6SQQ",
+                          "quantity": 75,
+                          "selling_price": 1600
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "XF_LXnYy",
+                      "product_id": "DNjjqPKS",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p008_1718950258789_jqjsw44lwdx8iqh.jpg",
+                      "selling_price": 1700,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "XF_LXnYy",
+                          "product_id": "DNjjqPKS",
+                          "quantity": 58,
+                          "selling_price": 1700
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "kElJUvht",
+                      "product_id": "o8wLDK1t",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p009_1718950263375_xb2moeilq5b8p4w.jpg",
+                      "selling_price": 1800,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "kElJUvht",
+                          "product_id": "o8wLDK1t",
+                          "quantity": 100,
+                          "selling_price": 1800
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "qaCPuU9C",
+                      "product_id": "Kzi8gShe",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p010_1718950267020_g0jub9z1ri9c6pm.jpg",
+                      "selling_price": 190,
+                      "sizes": [
+                        {
+                          "size": "XS",
+                          "sku_id": "qaCPuU9C",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 19,
+                          "selling_price": 190
+                        },
+                        {
+                          "size": "S",
+                          "sku_id": "oU8HTI9b",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 87,
+                          "selling_price": 1900
+                        }
+                      ]
+                    }
+                  ],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 90,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 240,
+                      "mrp": 290,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QgvphIXK",
+                      "sku_id": "p0015_s",
+                      "OOS_updatedAt": "2024-07-19T13:25:23.222Z",
+                      "_id": "6675198ee48913adf863dc53"
+                    },
+                    {
+                      "size": "M",
+                      "quantity": 80,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2400,
+                      "mrp": 2900,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QZ0A7rVe",
+                      "sku_id": "p015_M",
+                      "OOS_updatedAt": "2024-07-08T05:45:32.930Z",
+                      "_id": "66751f53e632f7e8d7e0d311"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/brown/catalogue/HpIK9AD5/QgvphIXK",
+                  "is_customisation_mandatory": true,
+                  "is_customisation_applicable": true,
+                  "customisation_page_short_id": "9JEEBxrVDH",
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "N1J3lo0E",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "dairy milk"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "6675196be48913adf863dbb7"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 1500,
+                    "short_id": "akVmYfXs",
+                    "mrp": 2000,
+                    "selling_price": 1500
+                  },
+                  "effective_price": "₹1500",
+                  "mrp": "₹2000",
+                  "mrp_display_string": "₹2,000",
+                  "is_oos": false,
+                  "mrp_numeric": 2000,
+                  "selling_price_numeric": 1500,
+                  "effective_price_numeric": 1500,
+                  "effective_price_display_string": "₹1,500",
+                  "show_mrp": true,
+                  "discount": 25,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20dairy%20milk.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fdairy-milk%2Fcatalogue%2FN1J3lo0E%2FakVmYfXs&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20dairy%20milk.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fdairy-milk%2Fcatalogue%2FN1J3lo0E%2FakVmYfXs&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "akVmYfXs",
+                      "product_id": "N1J3lo0E",
+                      "quantity": 70,
+                      "selling_price": 1500
+                    }
+                  ],
+                  "all_grouped_skus_data": [
+                    {
+                      "sku_id": "akVmYfXs",
+                      "product_id": "N1J3lo0E",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p006_1718950251638_jmq78jwspvcxbo7.jpg",
+                      "colour": "",
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "akVmYfXs",
+                          "product_id": "N1J3lo0E",
+                          "quantity": 70,
+                          "selling_price": 1500
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "cB1RllSa",
+                      "product_id": "zVAF7QLD",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/abcde_C8FGGWK0R8_2024-06-21_1.jpg",
+                      "selling_price": 120,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "cB1RllSa",
+                          "product_id": "zVAF7QLD",
+                          "quantity": 79,
+                          "selling_price": 120
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "PdGfSDqy",
+                      "product_id": "cjfV54ZC",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p001_1718950231324_xym9gz0zh85l9pl.jpg",
+                      "selling_price": 1000,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "PdGfSDqy",
+                          "product_id": "cjfV54ZC",
+                          "quantity": 66,
+                          "selling_price": 1000
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "a1zZysg3",
+                      "product_id": "vDEVGdE-",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p002_1718950235023_q2fybzw6n7lk5uz.jpg",
+                      "selling_price": 1100,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "a1zZysg3",
+                          "product_id": "vDEVGdE-",
+                          "quantity": 60,
+                          "selling_price": 1100
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "OMXKpuN0",
+                      "product_id": "42BHR-J4",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p003_1718950239625_iw70gbe0z9bfmv0.jpg",
+                      "selling_price": 1200,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "OMXKpuN0",
+                          "product_id": "42BHR-J4",
+                          "quantity": 25,
+                          "selling_price": 1200
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "nki9g6pr",
+                      "product_id": "a4_mAX3P",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p004_1718950242291_16axtacm4ng5wnr.jpg",
+                      "selling_price": 1300,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "nki9g6pr",
+                          "product_id": "a4_mAX3P",
+                          "quantity": 20,
+                          "selling_price": 1300
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "J55IEi5A",
+                      "product_id": "w53ylc_k",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p005_1718950246923_11p2jnbfpiwgo6q.jpg",
+                      "selling_price": 1400,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "J55IEi5A",
+                          "product_id": "w53ylc_k",
+                          "quantity": 30,
+                          "selling_price": 1400
+                        }
+                      ]
+                    }
+                  ],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 70,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 1500,
+                      "mrp": 2000,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "akVmYfXs",
+                      "sku_id": "p006_S",
+                      "OOS_updatedAt": "2024-07-04T11:02:11.228Z",
+                      "_id": "66751969e48913adf863dbb1"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/dairy-milk/catalogue/N1J3lo0E/akVmYfXs",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "umosnxwL",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "Maroon And White Checks Premium Gingham Cotton Full Sleeve Shirt For Men"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "667bb8f86ee32c354e86abad"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "type": "image",
+                      "index": 1,
+                      "_id": "667bb8f96ee32c354e86abbe"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "type": "image",
+                      "index": 2,
+                      "_id": "667bb8fb6ee32c354e86abd0"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "type": "image",
+                      "index": 3,
+                      "_id": "667bb8fc6ee32c354e86abe3"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "type": "image",
+                      "index": 4,
+                      "_id": "667bb8fe6ee32c354e86abf7"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "type": "image",
+                      "index": 5,
+                      "_id": "667bb9006ee32c354e86ac0c"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 1299,
+                    "short_id": "IGqhc9Wq",
+                    "mrp": 2599,
+                    "selling_price": 1299
+                  },
+                  "effective_price": "₹1299",
+                  "mrp": "₹2599",
+                  "mrp_display_string": "₹2,599",
+                  "is_oos": false,
+                  "mrp_numeric": 2599,
+                  "selling_price_numeric": 1299,
+                  "effective_price_numeric": 1299,
+                  "effective_price_display_string": "₹1,299",
+                  "show_mrp": true,
+                  "discount": 50.01923816852636,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S/34-36",
+                      "sku_id": "IGqhc9Wq",
+                      "product_id": "umosnxwL",
+                      "quantity": 88,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "M/38-40",
+                      "sku_id": "LbIPag5a",
+                      "product_id": "umosnxwL",
+                      "quantity": 99,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "L/42-44",
+                      "sku_id": "7bGwPUka",
+                      "product_id": "umosnxwL",
+                      "quantity": 399,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "sku_id": "8N43vNID",
+                      "product_id": "umosnxwL",
+                      "quantity": 72,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "sku_id": "Sx7ia2LZ",
+                      "product_id": "umosnxwL",
+                      "quantity": 61,
+                      "selling_price": 1299
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S/34-36",
+                      "quantity": 88,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "IGqhc9Wq",
+                      "sku_id": "Maroon&White_Gingham_S/38",
+                      "OOS_updatedAt": "2024-07-22T07:15:39.960Z",
+                      "_id": "667bb8f56ee32c354e86ab94"
+                    },
+                    {
+                      "size": "M/38-40",
+                      "quantity": 99,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "LbIPag5a",
+                      "sku_id": "Maroon&White_Gingham_M/40",
+                      "OOS_updatedAt": "2024-07-19T10:19:39.976Z",
+                      "_id": "667bb8f56ee32c354e86ab95"
+                    },
+                    {
+                      "size": "L/42-44",
+                      "quantity": 399,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "7bGwPUka",
+                      "sku_id": "Maroon&White_Gingham_L/42",
+                      "OOS_updatedAt": "2024-07-18T05:54:58.748Z",
+                      "_id": "667bb8f56ee32c354e86ab96"
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "quantity": 72,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "8N43vNID",
+                      "sku_id": "Maroon&White_Gingham_XL/44",
+                      "_id": "667bb8f56ee32c354e86ab97"
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "quantity": 61,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "Sx7ia2LZ",
+                      "sku_id": "Maroon&White_Gingham_XXL/46",
+                      "_id": "667bb8f56ee32c354e86ab98"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/Maroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt/catalogue/umosnxwL/IGqhc9Wq",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "n22qF77Y",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "merown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "6675198be48913adf863dc47"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 2300,
+                    "short_id": "4nZny4Pw",
+                    "mrp": 2800,
+                    "selling_price": 2300
+                  },
+                  "effective_price": "₹2300",
+                  "mrp": "₹2800",
+                  "mrp_display_string": "₹2,800",
+                  "is_oos": false,
+                  "mrp_numeric": 2800,
+                  "selling_price_numeric": 2300,
+                  "effective_price_numeric": 2300,
+                  "effective_price_display_string": "₹2,300",
+                  "show_mrp": true,
+                  "discount": 17.857142857142858,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "4nZny4Pw",
+                      "product_id": "n22qF77Y",
+                      "quantity": 91,
+                      "selling_price": 2300
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 91,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2300,
+                      "mrp": 2800,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "4nZny4Pw",
+                      "sku_id": "p0014_S",
+                      "OOS_updatedAt": "2024-07-22T08:06:00.739Z",
+                      "_id": "6675198ae48913adf863dc41"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/merown/catalogue/n22qF77Y/4nZny4Pw",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                }
+              ],
+              "view_all": {
+                "text": "View All",
+                "link": "/collection/best-sellers"
+              },
+              "custom_style": {
+                "title_alignment": "left",
+                "background_color": "transparent",
+                "is_background_image_repeat": false
+              },
+              "background_image": "",
+              "is_paginated": false,
+              "meta": {
+                "page_no": 1,
+                "has_more": false,
+                "total_count": 0
+              }
             },
             {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
+              "short_id": "M3LGhlSU4h",
+              "type": "product_group",
+              "layout": "grid",
+              "sub_type": "new_arrivals",
+              "title": "new",
+              "entities": [],
+              "view_all": {
+                "text": "View All",
+                "link": "/collection/new-arrivals"
+              },
+              "custom_style": {
+                "title_alignment": "left",
+                "background_color": "transparent",
+                "is_background_image_repeat": false
+              },
+              "background_image": "",
+              "is_paginated": false,
+              "meta": {
+                "page_no": 1,
+                "has_more": false,
+                "total_count": 0
+              }
             },
             {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree3",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
-            },
-            {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
-            },
-            {
-              "image": "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
-              "title": "Tree4",
-              "effective_price": "100",
-              "selling_price": "200",
-              "offer_value": "50%"
+              "short_id": "EeF9iVr5jC",
+              "type": "product_group",
+              "layout": "infinite",
+              "sub_type": "all_products",
+              "title": "all products",
+              "entities": [
+                {
+                  "short_id": "umosnxwL",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "Maroon And White Checks Premium Gingham Cotton Full Sleeve Shirt For Men"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384311636_5xedkl0ua8jufpo.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "667bb8f86ee32c354e86abad"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384313536_0qfo4enl70ip9nw.jpg",
+                      "type": "image",
+                      "index": 1,
+                      "_id": "667bb8f96ee32c354e86abbe"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384314784_7ikvnltloux2bra.jpg",
+                      "type": "image",
+                      "index": 2,
+                      "_id": "667bb8fb6ee32c354e86abd0"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384316085_mcj5ztq3e0aus2b.jpg",
+                      "type": "image",
+                      "index": 3,
+                      "_id": "667bb8fc6ee32c354e86abe3"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384318629_e79wysku3winxn4.jpg",
+                      "type": "image",
+                      "index": 4,
+                      "_id": "667bb8fe6ee32c354e86abf7"
+                    },
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/Maroon_White_Gingham_1719384319830_n5tjfiajbimv4vw.jpg",
+                      "type": "image",
+                      "index": 5,
+                      "_id": "667bb9006ee32c354e86ac0c"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 1299,
+                    "short_id": "IGqhc9Wq",
+                    "mrp": 2599,
+                    "selling_price": 1299
+                  },
+                  "effective_price": "₹1299",
+                  "mrp": "₹2599",
+                  "mrp_display_string": "₹2,599",
+                  "is_oos": false,
+                  "mrp_numeric": 2599,
+                  "selling_price_numeric": 1299,
+                  "effective_price_numeric": 1299,
+                  "effective_price_display_string": "₹1,299",
+                  "show_mrp": true,
+                  "discount": 50.01923816852636,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20Maroon%20And%20White%20Checks%20Premium%20Gingham%20Cotton%20Full%20Sleeve%20Shirt%20For%20Men.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2FMaroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt%2Fcatalogue%2FumosnxwL%2FIGqhc9Wq&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S/34-36",
+                      "sku_id": "IGqhc9Wq",
+                      "product_id": "umosnxwL",
+                      "quantity": 88,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "M/38-40",
+                      "sku_id": "LbIPag5a",
+                      "product_id": "umosnxwL",
+                      "quantity": 99,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "L/42-44",
+                      "sku_id": "7bGwPUka",
+                      "product_id": "umosnxwL",
+                      "quantity": 399,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "sku_id": "8N43vNID",
+                      "product_id": "umosnxwL",
+                      "quantity": 72,
+                      "selling_price": 1299
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "sku_id": "Sx7ia2LZ",
+                      "product_id": "umosnxwL",
+                      "quantity": 61,
+                      "selling_price": 1299
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S/34-36",
+                      "quantity": 88,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "IGqhc9Wq",
+                      "sku_id": "Maroon&White_Gingham_S/38",
+                      "OOS_updatedAt": "2024-07-22T07:15:39.960Z",
+                      "_id": "667bb8f56ee32c354e86ab94"
+                    },
+                    {
+                      "size": "M/38-40",
+                      "quantity": 99,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "LbIPag5a",
+                      "sku_id": "Maroon&White_Gingham_M/40",
+                      "OOS_updatedAt": "2024-07-19T10:19:39.976Z",
+                      "_id": "667bb8f56ee32c354e86ab95"
+                    },
+                    {
+                      "size": "L/42-44",
+                      "quantity": 399,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "7bGwPUka",
+                      "sku_id": "Maroon&White_Gingham_L/42",
+                      "OOS_updatedAt": "2024-07-18T05:54:58.748Z",
+                      "_id": "667bb8f56ee32c354e86ab96"
+                    },
+                    {
+                      "size": "XL/46-48",
+                      "quantity": 72,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "8N43vNID",
+                      "sku_id": "Maroon&White_Gingham_XL/44",
+                      "_id": "667bb8f56ee32c354e86ab97"
+                    },
+                    {
+                      "size": "2XL/50-52",
+                      "quantity": 61,
+                      "length": 24,
+                      "breadth": 20,
+                      "height": 5,
+                      "volume": 0.48,
+                      "weight": "0.4",
+                      "selling_price": 1299,
+                      "mrp": 2599,
+                      "cost_price": 584,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "Sx7ia2LZ",
+                      "sku_id": "Maroon&White_Gingham_XXL/46",
+                      "_id": "667bb8f56ee32c354e86ab98"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/Maroon-And-White-Checks-Premium-Gingham-Cotton-Full-Sleeve-Shirt/catalogue/umosnxwL/IGqhc9Wq",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "HpIK9AD5",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "brown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "66751990e48913adf863dc59"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 240,
+                    "short_id": "QgvphIXK",
+                    "mrp": 290,
+                    "selling_price": 240
+                  },
+                  "effective_price": "₹240",
+                  "mrp": "₹290",
+                  "mrp_display_string": "₹290",
+                  "is_oos": false,
+                  "mrp_numeric": 290,
+                  "selling_price_numeric": 240,
+                  "effective_price_numeric": 240,
+                  "effective_price_display_string": "₹240",
+                  "show_mrp": true,
+                  "discount": 17.24137931034483,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20brown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fbrown%2Fcatalogue%2FHpIK9AD5%2FQgvphIXK&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 90,
+                      "selling_price": 240
+                    },
+                    {
+                      "size": "M",
+                      "sku_id": "QZ0A7rVe",
+                      "product_id": "HpIK9AD5",
+                      "quantity": 80,
+                      "selling_price": 2400
+                    }
+                  ],
+                  "all_grouped_skus_data": [
+                    {
+                      "sku_id": "QgvphIXK",
+                      "product_id": "HpIK9AD5",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p015_1718950288020_3vrw7u4ro38te6k.jpg",
+                      "colour": "",
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "QgvphIXK",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 90,
+                          "selling_price": 240
+                        },
+                        {
+                          "size": "M",
+                          "sku_id": "QZ0A7rVe",
+                          "product_id": "HpIK9AD5",
+                          "quantity": 80,
+                          "selling_price": 2400
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "AMF4g-_r",
+                      "product_id": "olEOF52N",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/mens_jipa_015E7R5OO1_2024-06-21_1.jpg",
+                      "selling_price": 120,
+                      "sizes": [
+                        {
+                          "size": "L",
+                          "sku_id": "AMF4g-_r",
+                          "product_id": "olEOF52N",
+                          "quantity": 84,
+                          "selling_price": 120
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "_0xQi9W2",
+                      "product_id": "DHly6SQQ",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p007_1718950255162_q1qoqgca1hda383.jpg",
+                      "selling_price": 1600,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "_0xQi9W2",
+                          "product_id": "DHly6SQQ",
+                          "quantity": 75,
+                          "selling_price": 1600
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "XF_LXnYy",
+                      "product_id": "DNjjqPKS",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p008_1718950258789_jqjsw44lwdx8iqh.jpg",
+                      "selling_price": 1700,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "XF_LXnYy",
+                          "product_id": "DNjjqPKS",
+                          "quantity": 58,
+                          "selling_price": 1700
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "kElJUvht",
+                      "product_id": "o8wLDK1t",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p009_1718950263375_xb2moeilq5b8p4w.jpg",
+                      "selling_price": 1800,
+                      "sizes": [
+                        {
+                          "size": "S",
+                          "sku_id": "kElJUvht",
+                          "product_id": "o8wLDK1t",
+                          "quantity": 100,
+                          "selling_price": 1800
+                        }
+                      ]
+                    },
+                    {
+                      "sku_id": "qaCPuU9C",
+                      "product_id": "Kzi8gShe",
+                      "colour": "",
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p010_1718950267020_g0jub9z1ri9c6pm.jpg",
+                      "selling_price": 190,
+                      "sizes": [
+                        {
+                          "size": "XS",
+                          "sku_id": "qaCPuU9C",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 19,
+                          "selling_price": 190
+                        },
+                        {
+                          "size": "S",
+                          "sku_id": "oU8HTI9b",
+                          "product_id": "Kzi8gShe",
+                          "quantity": 87,
+                          "selling_price": 1900
+                        }
+                      ]
+                    }
+                  ],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 90,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 240,
+                      "mrp": 290,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QgvphIXK",
+                      "sku_id": "p0015_s",
+                      "OOS_updatedAt": "2024-07-19T13:25:23.222Z",
+                      "_id": "6675198ee48913adf863dc53"
+                    },
+                    {
+                      "size": "M",
+                      "quantity": 80,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2400,
+                      "mrp": 2900,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "QZ0A7rVe",
+                      "sku_id": "p015_M",
+                      "OOS_updatedAt": "2024-07-08T05:45:32.930Z",
+                      "_id": "66751f53e632f7e8d7e0d311"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/brown/catalogue/HpIK9AD5/QgvphIXK",
+                  "is_customisation_mandatory": true,
+                  "is_customisation_applicable": true,
+                  "customisation_page_short_id": "9JEEBxrVDH",
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "n22qF77Y",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "merown"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p014_1718950283440_9v5p7jtw9rlcd0y.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "6675198be48913adf863dc47"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 2300,
+                    "short_id": "4nZny4Pw",
+                    "mrp": 2800,
+                    "selling_price": 2300
+                  },
+                  "effective_price": "₹2300",
+                  "mrp": "₹2800",
+                  "mrp_display_string": "₹2,800",
+                  "is_oos": false,
+                  "mrp_numeric": 2800,
+                  "selling_price_numeric": 2300,
+                  "effective_price_numeric": 2300,
+                  "effective_price_display_string": "₹2,300",
+                  "show_mrp": true,
+                  "discount": 17.857142857142858,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20merown.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Fmerown%2Fcatalogue%2Fn22qF77Y%2F4nZny4Pw&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "4nZny4Pw",
+                      "product_id": "n22qF77Y",
+                      "quantity": 91,
+                      "selling_price": 2300
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 91,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2300,
+                      "mrp": 2800,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "4nZny4Pw",
+                      "sku_id": "p0014_S",
+                      "OOS_updatedAt": "2024-07-22T08:06:00.739Z",
+                      "_id": "6675198ae48913adf863dc41"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/merown/catalogue/n22qF77Y/4nZny4Pw",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                },
+                {
+                  "short_id": "H9l0TkP8",
+                  "header_badge_icon": "https://cdn.zeplin.io/619d06ef8cfa6aab579b7e4d/assets/29abb7e0-3dad-4a21-93aa-fa4cc36a4ae2.svg",
+                  "content": {
+                    "title": "orange ORANGE ORANGE orange orange"
+                  },
+                  "size_type": "size",
+                  "images": [
+                    {
+                      "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,fo-auto/6569ab893a8edb92b828e42c/media/p013_1718950279793_89raea4grz9ynwf.jpg",
+                      "gcs_src_url": "https://storage.googleapis.com/stage-nushop-catalogue/6569ab893a8edb92b828e42c/media/p013_1718950279793_89raea4grz9ynwf.jpg",
+                      "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/6569ab893a8edb92b828e42c/media/p013_1718950279793_89raea4grz9ynwf.jpg",
+                      "thumbnail_url": "https://cdn-image.blitzshopdeck.in/ShopdeckCatalogueStage/tr:f-webp,w-80,h-80,fo-auto/6569ab893a8edb92b828e42c/media/p013_1718950279793_89raea4grz9ynwf.jpg",
+                      "type": "image",
+                      "index": 0,
+                      "_id": "66751988e48913adf863dc35"
+                    }
+                  ],
+                  "sku_data": {
+                    "effective_price": 2200,
+                    "short_id": "AcM4yVBA",
+                    "mrp": 2700,
+                    "selling_price": 2200
+                  },
+                  "effective_price": "₹2200",
+                  "mrp": "₹2700",
+                  "mrp_display_string": "₹2,700",
+                  "is_oos": false,
+                  "mrp_numeric": 2700,
+                  "selling_price_numeric": 2200,
+                  "effective_price_numeric": 2200,
+                  "effective_price_display_string": "₹2,200",
+                  "show_mrp": true,
+                  "discount": 18.51851851851852,
+                  "cta_text": "Add to bag",
+                  "icons": {
+                    "whatsapp_icon": "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                  },
+                  "whatsapp_share_link": {
+                    "desktopScreenLink": "https://web.whatsapp.com/send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20orange%20ORANGE%20ORANGE%20orange%20orange.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Forange-ORANGE-ORANGE-orange-orange%2Fcatalogue%2FH9l0TkP8%2FAcM4yVBA&phone=+919076928886",
+                    "mobileScreenLink": "whatsapp://send?text=Hello%20ajaystore.stage.sdloki.in%0AI%20am%20interested%20in%20buying%20orange%20ORANGE%20ORANGE%20orange%20orange.%0Ahttps%3A%2F%2Fajaystore.stage.sdloki.in%2Forange-ORANGE-ORANGE-orange-orange%2Fcatalogue%2FH9l0TkP8%2FAcM4yVBA&phone=+919076928886"
+                  },
+                  "all_sku_data": [
+                    {
+                      "size": "S",
+                      "sku_id": "AcM4yVBA",
+                      "product_id": "H9l0TkP8",
+                      "quantity": 60,
+                      "selling_price": 2200
+                    }
+                  ],
+                  "all_grouped_skus_data": [],
+                  "customer_skus": [
+                    {
+                      "size": "S",
+                      "quantity": 60,
+                      "length": 10,
+                      "breadth": 8,
+                      "height": 12,
+                      "volume": 10,
+                      "weight": "10",
+                      "selling_price": 2200,
+                      "mrp": 2700,
+                      "media": [],
+                      "is_active": true,
+                      "short_id": "AcM4yVBA",
+                      "sku_id": "p0013_S",
+                      "OOS_updatedAt": "2024-07-04T10:04:47.114Z",
+                      "_id": "66751986e48913adf863dc2f"
+                    }
+                  ],
+                  "product_rating": {
+                    "total_ratings": 0,
+                    "total_reviews": 0
+                  },
+                  "discount_text": "",
+                  "url_suffix": "/orange-ORANGE-ORANGE-orange-orange/catalogue/H9l0TkP8/AcM4yVBA",
+                  "is_customisation_applicable": false,
+                  "stock_alert_text": "",
+                  "is_bumper_coupon_applicable": false
+                }
+              ],
+              "custom_style": {
+                "title_alignment": "left",
+                "background_color": "transparent",
+                "is_background_image_repeat": false
+              },
+              "background_image": "",
+              "is_paginated": true,
+              "meta": {
+                "page_no": 1,
+                "has_more": true,
+                "total_count": 18
+              }
             }
           ]
         },
-        "template": {
+        "grid_template": {
           "type": "column",
           "args": {
+            "crossAxisAlignment": "start",
             "children": [
               {
                 "type": "card",
                 "args": {
                   "child": {
-                    "type": "network_image",
+                    "type": "container",
                     "args": {
-                      "src": "${value['image']}"
+                      "height": 200,
+                      "width": 200,
+                      "child": {
+                        "type": "network_image",
+                        "args": {
+                          "src": "${value['images'][0]['src_url']}",
+                          "fit": "cover"
+                        }
+                      }
                     }
                   }
                 }
@@ -76,12 +2215,13 @@
                 "type": "padding",
                 "args": {
                   "padding": {
-                    "all": 8
+                    "top": 4,
+                    "bottom": 4
                   },
                   "child": {
                     "type": "text",
                     "args": {
-                      "text": "${value['title']}",
+                      "text": "${value['content']['title']}",
                       "style": {
                         "color": "#000000",
                         "fontSize": 20
@@ -91,64 +2231,82 @@
                 }
               },
               {
-                "type": "row",
+                "type": "padding",
                 "args": {
-                  "children": [
-                    {
-                        "type": "padding",
-                  "args": {
-                    "padding": {
-                      "left": 12,
-                      "top": 12,
-                      "right": 12,
-                      "bottom": 12
-                    },
-                    "child": {
-                      "type": "text",
-                      "args": {
-                        "text": "${value['effective_price']}",
-                        "style": {
-                          "color": "#000000",
-                          "fontSize": 12
+                  "padding": {
+                    "top": 4,
+                    "bottom": 4
+                  },
+                  "child": {
+                    "type": "row",
+                    "args": {
+                      "children": [
+      
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['effective_price_display_string']}",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " | ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " ₹ ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['mrp_display_string']}",
+                            "style": {
+                              "color": "#000000",
+                              "opacity": 0.5,
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " | ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['discount']}",
+                            "style": {
+                              "color": "#88D66C",
+                              "opacity": 0.5,
+                              "fontSize": 12
+                            }
+                          }
                         }
-                      }
+                      ]
                     }
                   }
-                    },
-                    {
-                      "type": "text",
-                      "args": {
-                        "text": "${value['selling_price']}",
-                        "style": {
-                          "color": "#000000",
-                          "opacity": 0.5,
-                          "fontSize": 12
-                        }
-                      }
-                    },
-                    {
-                        "type": "padding",
-                  "args": {
-                    "padding": {
-                      "left": 12,
-                      "top": 12,
-                      "right": 12,
-                      "bottom": 12
-                    },
-                    "child": {
-                      "type": "text",
-                      "args": {
-                        "text": "${value['offer_value']}",
-                        "style": {
-                          "color": "#88D66C",
-                          "opacity": 0.5,
-                          "fontSize": 12
-                        }
-                      }
-                    }
-                  }
-                    }
-                  ]
                 }
               },
               {
@@ -158,15 +2316,15 @@
                     "type": "center",
                     "args": {
                       "child": {
-                        "type": "elevated_button",
+                        "type": "text_button",
                         "args": {
                           "style": {
-                            "color": "#000000"
+                            "foregroundColor": "#ffffff"
                           },
                           "child": {
                             "type": "text",
                             "args": {
-                              "text": "ElevatedButton"
+                              "text": "Add To Bag"
                             }
                           }
                         }
@@ -177,71 +2335,440 @@
               }
             ]
           }
+        },
+        "grid_template_1": {
+          "type": "column",
+          "args": {
+            "crossAxisAlignment": "start",
+            "children": [
+              {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "container",
+                    "args": {
+                      "height": 200,
+                      "width": 200,
+                      "child": {
+                        "type": "network_image",
+                        "args": {
+                          "src": "${value['images'][0]['src_url']}",
+                          "fit": "cover"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "args": {
+                  "padding": {
+                    "top": 4,
+                    "bottom": 4
+                  },
+                  "child": {
+                    "type": "text",
+                    "args": {
+                      "text": "${value['content']['title']}",
+                      "style": {
+                        "color": "#000000",
+                        "fontSize": 20
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "args": {
+                  "padding": {
+                    "top": 4,
+                    "bottom": 4
+                  },
+                  "child": {
+                    "type": "row",
+                    "args": {
+                      "children": [
+      
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['effective_price_display_string']}",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " | ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " ₹ ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['mrp_display_string']}",
+                            "style": {
+                              "color": "#000000",
+                              "opacity": 0.5,
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": " | ",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            }
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "args": {
+                            "text": "${value['discount']}",
+                            "style": {
+                              "color": "#88D66C",
+                              "opacity": 0.5,
+                              "fontSize": 12
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "type": "expanded",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text_button",
+                        "args": {
+                          "style": {
+                            "foregroundColor": "#ffffff"
+                          },
+                          "child": {
+                            "type": "text",
+                            "args": {
+                              "text": "Add To Bag"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "context_media_template": {
+          "type": "column",
+          "args": {
+            "children": [
+              {
+                "type": "container",
+                "args": {
+                  "height": 90,
+                  "width": 90,
+                  "decoration": {
+                    "type": "box_decoration",
+                    "borderRadius": {
+                      "type": "circular",
+                      "radius": 100
+                    }
+                  },
+                  "child": {
+                    "type": "padding",
+                    "args": {
+                      "padding": {
+                        "top": 8,
+                        "bottom": 8,
+                        "left": 8,
+                        "right": 8
+                      },
+                      "child": {
+                        "type": "clip_rrect",
+                        "args": {
+                          "borderRadius": {
+                            "type": "circular",
+                            "radius": 100
+                          },
+                          "child": {
+                            "type": "network_image",
+                            "args": {
+                              "src": "${value['src_url']}",
+                              "fit": "cover"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "padding",
+                "args": {
+                  "padding": {
+                    "top": 8
+                  },
+                  "child": {
+                    "type": "text",
+                    "args": {
+                      "text": "${value['title']}",
+                      "style": {
+                        "color": "#000000",
+                        "fontSize": 12
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "banner_template": {
+          "type": "container",
+          "args": {
+            "width": 250,
+            "height": 50,
+            "child": {
+              "type": "card",
+              "args": {
+                "child": {
+                  "type": "network_image",
+                  "args": {
+                    "src": "${value['image']}",
+                    "fit": "cover"
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "child": {
         "type": "scaffold",
         "args": {
-          "appBar": {
-            "type": "app_bar",
-            "args": {
-              "title": {
-                "type": "text",
-                "args": {
-                  "text": "GridView"
-                }
-              }
-            }
-          },
           "body": {
-            "type": "column",
-            "args": {
-              "mainAxisSize": "min",
-              "children": [
-                {
-                  "type": "padding",
-                  "args": {
-                    "padding": {
-                      "left": 12,
-                      "top": 12,
-                      "right": 12,
-                      "bottom": 12
-                    },
-                    "child": {
-                      "type": "text",
+            
+              "padding": {
+                "left": 12,
+                "top": 12,
+                "right": 12,
+                "bottom": 12
+              },
+              "child": {
+                "type": "list_view",
+                "args": {
+                  "children": [
+                    {
+                      "type": "container",
                       "args": {
-                        "text": "All Products",
-                        "style": {
-                          "color": "#000000",
-                          "fontSize": 21
+                        "height": 130,
+                        "child": {
+                          "type": "list_view",
+                          "args": {
+                            "scrollDirection": "horizontal",
+                            "children": "${for_each(entries['values'][0]['entities'], 'context_media_template')}"
+                          }
                         }
                       }
-                    }
-                  }
-                },
-                {
-                  "type": "expanded",
-                  "args": {
-                    "child": {
+                    },
+                    {
+                      "type": "padding",
+                      "args": {
+                        "padding": {
+                          "left": 12,
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12
+                        },
+                        "child": {
+                          "type": "text",
+                          "args": {
+                            "text": "All Products",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 21
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "padding",
+                      "args": {
+                        "padding": {
+                          "left": 12,
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 24
+                        },
+                        "child": {
+                          "type": "text",
+                          "args": {
+                            "text": "View All",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12,
+                              "obacity": 0.7,
+                              "decoration": "underline"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
                       "type": "grid_view",
                       "args": {
                         "gridDelegate": {
                           "crossAxisCount": 2,
                           "childAspectRatio": 0.5,
-                          "crossAxisSpacing": 8.0,
-                          "mainAxisSpacing": 12.0,
+                          "crossAxisSpacing": 8,
+                          "mainAxisSpacing": 12,
                           "type": "fixed_cross_axis_count"
                         },
-                              "children": "${for_each(entries['values'], 'template')}"
-                     }
+                        "scrollDirection": "vertical",
+                        "shrinkWrap": true,
+                        "children": "${for_each(entries['values'][1]['entities'], 'grid_template')}"
+                      }
+                    },
+                    {
+                      "type": "padding",
+                      "args": {
+                        "padding": {
+                          "left": 12,
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12
+                        },
+                        "child": {
+                          "type": "text",
+                          "args": {
+                            "text": "All Products",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 21
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "args": {
+                        "height": 350,
+                        "child": {
+                          "type": "list_view",
+                          "args": {
+                            "scrollDirection": "horizontal",
+                            "shrinkWrap": true,
+                            "children": "${for_each(entries['values'][2]['entities'], 'grid_template')}"
+                          }
+                        }
+                      }
+                    },
+                     {
+                      "type": "padding",
+                      "args": {
+                        "padding": {
+                          "left": 12,
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12
+                        },
+                        "child": {
+                          "type": "text",
+                          "args": {
+                            "text": "All Products",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 21
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "args": {
+                        "height": 350,
+                        "child": {
+                          "type": "list_view",
+                          "args": {
+                            "scrollDirection": "horizontal",
+                            "shrinkWrap": true,
+                            "children": "${for_each(entries['values'][2]['entities'], 'grid_template_1')}"
+                          }
+                        }
+                      }
+                    },
+                                      {
+                      "type": "padding",
+                      "args": {
+                        "padding": {
+                          "left": 12,
+                          "top": 12,
+                          "right": 12,
+                          "bottom": 12
+                        },
+                        "child": {
+                          "type": "text",
+                          "args": {
+                            "text": "All Products",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 21
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "container",
+                      "args": {
+                        "height": 350,
+                        "child": {
+                          "type": "list_view",
+                          "args": {
+                            "scrollDirection": "horizontal",
+                            "shrinkWrap": true,
+                            "children": "${for_each(entries['values'][2]['entities'], 'grid_template')}"
+                          }
+                        }
+                      }
                     }
-                  }
+                  ]
                 }
-              ]
+              }
             }
           }
         }
       }
     }
-  }
-}
+  }  

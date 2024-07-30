@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData } from '../config';
+import { jsonData, jsonDataUI } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 
@@ -13,10 +13,12 @@ class LocalJsonController {
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {
             console.log(`inside getPageDetailsById`)
-            data = result;
-            console.log(`data is ${data}`)
+            data = result.data.widgets;
+            jsonData.args.values.entries.values = data    
+            jsonData.args.child.args.body = jsonDataUI
+
             return res.status(200).json({
-              data
+              jsonData
             }); 
           });
           

@@ -18,6 +18,9 @@ export const prashth = nconf.get('service').prashth;
 export const port = nconf.get('server').port;
 nconf.argv().env().file({ file: 'src/config/rendering_data.json' });
 export const jsonData = nconf.get('data');
+nconf.argv().env().file({ file: 'src/config/rendering_data_ui_body.json' });
+export const jsonDataUI = nconf.get('body');
+
 
 let config = {} as IConfig;
 
