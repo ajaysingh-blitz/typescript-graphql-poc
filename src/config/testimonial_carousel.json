@@ -1,0 +1,119 @@
+{ "data" :
+  {
+    "type": "container",
+    "args": {
+      "width": 360,
+      "decoration": {
+        "border": {
+          "color": "#000000",
+          "width": 1,
+          "style": "solid",
+          "opacity": 0.5
+        }
+      },
+      "padding": {
+        "left": 12,
+        "right": 12,
+        "top": 12,
+        "bottom": 12
+      },
+      "child": {
+        "type": "column",
+        "args": {
+          "crossAxisAlignment": "start",
+          "children": [
+            {
+              "type": "text",
+              "args": {
+                "text": "${value['name']}",
+                "style": {
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "color": "#000000"
+                }
+              }
+            },
+            {
+              "type": "row",
+              "args": {
+                "children": [
+                  {
+                    "type": "text",
+                    "args": {
+                      "text": "Verified Buyer ",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#000000"
+                      }
+                    }
+                  },                                              
+                  {
+                    "type": "text",
+                    "args": {
+                      "text": "• ",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#000000"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "args": {
+                      "text": "${value['city']}",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#000000"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "args": {
+                      "text": "• ",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#000000"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "args": {
+                      "text": "${value['review_date']}",
+                      "style": {
+                        "fontSize": 12,
+                        "color": "#000000"
+                      }
+                    }
+                  }  
+                ]
+              }
+            },
+            {
+              "type": "icon",
+              "args": {
+                "icon": {
+                  "codePoint": "0xe5f9",
+                  "fontFamily": "MaterialIcons"
+                },
+                "size": 20
+              }
+            },
+            {
+              "type": "text",
+              "args": {
+                "text": "${value['review']}",
+                "style": {
+                  "fontSize": 12,
+                  "color": "#000000",
+                  "maxLines": 5
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }  
+}
