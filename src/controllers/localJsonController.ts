@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData, jsonDataUI } from '../config';
+import { jsonData, jsonDataUI, carousel } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 
@@ -15,9 +15,10 @@ class LocalJsonController {
             console.log(`inside getPageDetailsById`)
             data = result.data.widgets;
 
-            result.data.widgets.forEach(element => {
-              if(element.type == "collection_posters" && element.layout == "carousel") {
+            result.data.widgets.forEach((value, index) => {
+              if(value.type == "collection_posters" && value.layout == "carousel") {
                 console.log("inside foreach and for element type collection_posters and carousel")
+                jsonDataUI.args.child.args.children[index] = carousel
               }
             });
             jsonData.args.values.entries.values = data;
