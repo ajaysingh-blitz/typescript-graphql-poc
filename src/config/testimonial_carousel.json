@@ -1,57 +1,15 @@
 { "data" :
-  {
+ {
     "type": "container",
     "args": {
-      "width": 360,
-      "decoration": {
-        "border": {
-          "color": "#000000",
-          "width": 1,
-          "style": "solid",
-          "opacity": 0.5
-        }
-      },
-      "padding": {
-        "left": 12,
-        "right": 12,
-        "top": 12,
-        "bottom": 12
-      },
+      "height": 230,
       "child": {
-        "type": "column",
+        "type": "list_view",
         "args": {
-          "crossAxisAlignment": "start",
-          "children": [               
-            {
-              "type": "padding",
-              "args": {
-                "padding": {                  
-                  "top": 24
-                },
-                "child": {
-                  "type": "container",
-                  "args": {
-                    "height": 230, 
-                    "child": {
-                      "type": "list_view",
-                      "args": {
-                        "scrollDirection": "horizontal",
-                        "separatorBuilder": {
-                          "type": "sized_box",
-                          "args": {
-                            "width": 12
-                          }
-                        },
-                        "children": "${for_each(entries['values'][5]['entities'], 'testimonial_template')}"
-                      }
-                    }
-                  }
-                }
-              }              
-            }
-          ]
+          "scrollDirection": "horizontal",
+          "children": "${for_each(entries['values'][0]['entities'], 'testimonial_template')}"
         }
       }
     }
-  }  
+ }
 }
