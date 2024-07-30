@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData, jsonDataUI, carousel, grid } from '../config';
+import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
@@ -42,7 +42,7 @@ class LocalJsonController {
                        ...carousel.args.child,
                        args: {
                         ...carousel.args.child.args,
-                        children: `\${for_each(entries['values'][${index}]['entities'], 'context_media_template')}` 
+                        children: `\${for_each(entries['values'][${index}]['entities'], 'testimonial_template')}` 
                        }
                     }
                   }
