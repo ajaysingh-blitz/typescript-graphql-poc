@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData, jsonDataUI, carousel } from '../config';
+import { jsonData, jsonDataUI, carousel, grid } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 
@@ -17,20 +17,21 @@ class LocalJsonController {
 
             result.data.widgets.forEach((value, index) => {
               if(value.type == "collection_posters" && value.layout == "carousel") {
-                console.log("inside foreach and for element type collection_posters and carousel")
                 jsonDataUI.args.child.args.children[index] = carousel
-                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               } 
               else if(value.type == "testimonial" && value.layout == "carousel"){
+                jsonDataUI.args.child.args.children[index] = carousel
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "content_text_and_media" && value.layout == "multiple"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "product_group" && value.layout == "carousel"){
+                jsonDataUI.args.child.args.children[index] = carousel
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "product_group" && value.layout == "grid"){
+                jsonDataUI.args.child.args.children[index] = grid
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "video_cross_link" && value.layout == "single"){
@@ -49,6 +50,7 @@ class LocalJsonController {
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "product_list" && value.layout == "carousel"){
+                jsonDataUI.args.child.args.children[index] = carousel
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
             });
