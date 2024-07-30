@@ -21,18 +21,7 @@
         "type": "column",
         "args": {
           "crossAxisAlignment": "start",
-          "children": [
-            {
-              "type": "text",
-              "args": {
-                "text": "Testimonial",
-                "style": {
-                  "fontSize": 21,
-                  "fontWeight": "bold",
-                  "color": "#000000"
-                }
-              }
-            },   
+          "children": [               
             {
               "type": "padding",
               "args": {
