@@ -25,91 +25,40 @@
             {
               "type": "text",
               "args": {
-                "text": "${value['name']}",
+                "text": "Testimonial",
                 "style": {
-                  "fontSize": 16,
+                  "fontSize": 21,
                   "fontWeight": "bold",
                   "color": "#000000"
                 }
               }
-            },
+            },   
             {
-              "type": "row",
+              "type": "padding",
               "args": {
-                "children": [
-                  {
-                    "type": "text",
-                    "args": {
-                      "text": "Verified Buyer ",
-                      "style": {
-                        "fontSize": 12,
-                        "color": "#000000"
-                      }
-                    }
-                  },                                              
-                  {
-                    "type": "text",
-                    "args": {
-                      "text": "• ",
-                      "style": {
-                        "fontSize": 12,
-                        "color": "#000000"
-                      }
-                    }
-                  },
-                  {
-                    "type": "text",
-                    "args": {
-                      "text": "${value['city']}",
-                      "style": {
-                        "fontSize": 12,
-                        "color": "#000000"
-                      }
-                    }
-                  },
-                  {
-                    "type": "text",
-                    "args": {
-                      "text": "• ",
-                      "style": {
-                        "fontSize": 12,
-                        "color": "#000000"
-                      }
-                    }
-                  },
-                  {
-                    "type": "text",
-                    "args": {
-                      "text": "${value['review_date']}",
-                      "style": {
-                        "fontSize": 12,
-                        "color": "#000000"
-                      }
-                    }
-                  }  
-                ]
-              }
-            },
-            {
-              "type": "icon",
-              "args": {
-                "icon": {
-                  "codePoint": "0xe5f9",
-                  "fontFamily": "MaterialIcons"
+                "padding": {                  
+                  "top": 24
                 },
-                "size": 20
-              }
-            },
-            {
-              "type": "text",
-              "args": {
-                "text": "${value['review']}",
-                "style": {
-                  "fontSize": 12,
-                  "color": "#000000",
-                  "maxLines": 5
+                "child": {
+                  "type": "container",
+                  "args": {
+                    "height": 230, 
+                    "child": {
+                      "type": "list_view",
+                      "args": {
+                        "scrollDirection": "horizontal",
+                        "separatorBuilder": {
+                          "type": "sized_box",
+                          "args": {
+                            "width": 12
+                          }
+                        },
+                        "children": "${for_each(entries['values'][5]['entities'], 'testimonial_template')}"
+                      }
+                    }
+                  }
                 }
-              }
+              }              
             }
           ]
         }

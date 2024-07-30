@@ -3443,58 +3443,7 @@
                 "child": {
                   "type": "list_view",
                   "args": {
-                    "children": [
-                      {
-                        "type": "text",
-                        "args": {
-                          "text": "Testimonial",
-                          "style": {
-                            "fontSize": 21,
-                            "fontWeight": "bold",
-                            "color": "#000000"
-                          }
-                        }
-                      },
-                      {
-                        "type": "text",
-                        "args": {
-                          "text": "View All",
-                          "style": {
-                            "fontSize": 12,
-                            "decoration": "underline",
-                            "color": "#000000",
-                            "opacity": 0.5
-                          }
-                        }
-                      },
-  
-                      {
-                        "type": "padding",
-                        "args": {
-                          "padding": {                  
-                            "top": 24
-                          },
-                          "child": {
-                            "type": "container",
-                            "args": {
-                              "height": 230, 
-                              "child": {
-                                "type": "list_view",
-                                "args": {
-                                  "scrollDirection": "horizontal",
-                                  "separatorBuilder": {
-                                    "type": "sized_box",
-                                    "args": {
-                                      "width": 12
-                                    }
-                                  },
-                                  "children": "${for_each(entries['values'][5]['entities'], 'testimonial_template')}"
-                                }
-                              }
-                            }
-                          }
-                        }              
-                      },
+                    "children": [                      
                       {
                         "type": "container",
                         "args": {
