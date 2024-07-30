@@ -15,39 +15,39 @@ class LocalJsonController {
             console.log(`inside getPageDetailsById`)
             data = result.data.widgets;
 
-            result.data.widgets.forEach(element => {
-              if(element.type == "collection_posters" && element.layout == "carousel") {
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+            result.data.widgets.forEach((value, index) => {
+              if(value.type == "collection_posters" && value.layout == "carousel") {
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               } 
-              else if(element.type == "testimonial" && element.layout == "carousel"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "testimonial" && value.layout == "carousel"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "content_text_and_media" && element.layout == "multiple"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "content_text_and_media" && value.layout == "multiple"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "product_group" && element.layout == "carousel"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "product_group" && value.layout == "carousel"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "product_group" && element.layout == "grid"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "product_group" && value.layout == "grid"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "video_cross_link" && element.layout == "single"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "video_cross_link" && value.layout == "single"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "video_cross_link" && element.layout == "multiple"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "video_cross_link" && value.layout == "multiple"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "banner_cross_link" && element.layout == "multiple"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "banner_cross_link" && value.layout == "multiple"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "banner_cross_link_full" && element.layout == "single"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "banner_cross_link_full" && value.layout == "single"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "website_navigator" && element.layout == "single"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "website_navigator" && value.layout == "single"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(element.type == "product_list" && element.layout == "carousel"){
-                console.log(`inside foreach and for element type ${element.type} and ${element.layout}`)
+              else if(value.type == "product_list" && value.layout == "carousel"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
             });
             
