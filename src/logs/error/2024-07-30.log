@@ -266,3 +266,167 @@ TSError: ⨯ Unable to compile TypeScript:
 TypeError: Cannot read properties of undefined (reading 'args')
     at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:18:40
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-07-30 12:15:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m56[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m             jsonData.args.child.args.body = jsonDataUI.
+[7m  [0m [91m                                                       [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m56[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m             jsonData.args.child.args.body = jsonDataUI.
+[7m  [0m [91m                                                       [0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-30 12:17:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m65[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m             console.log(`inside getPageDetailsById jsonDataUI ${}`)
+[7m  [0m [91m                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m20[0m:[93m65[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m             console.log(`inside getPageDetailsById jsonDataUI ${}`)
+[7m  [0m [91m                                                                ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-30 12:24:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-30 12:24:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-30 12:24:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2024-07-30 12:24:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                      ~[0m
+[96msrc/http/prashth.http.ts[0m:[93m18[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m18[0m       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
+[7m  [0m [91m                                                              ~[0m
+
+    at createTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/suvidhapatekar/Downloads/typescript-graphql-poc/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

@@ -13,7 +13,7 @@ export default class PrashthInternal {
     const headers = {
       'Accept': 'application/json', 
       'wm_platform_os': 'android',
-      'wm_seller_website' : 'rudra.stage.sdloki.in',
+      'wm_seller_website' : 'ajaystore.stage.sdloki.in',
       'wm_visitor_id' : '35b647f0-4a8c-11ef-829e-67da6ea1276d',
       'wm_device_type' : 'mobile',
       'shopdeck_app_version' : '2.0',
@@ -21,7 +21,7 @@ export default class PrashthInternal {
     };
   
     try {
-      const response = await fetch(`http://rudra.stage.sdloki.in/api/prashth/page/?page_no=0&page_size=5&sale_id=`, {
+      const response = await fetch(`http://ajaystore.stage.sdloki.in/api/prashth/page/?page_no=0&page_size=5&sale_id=`, {
         method: 'GET',
         headers: headers
       });
