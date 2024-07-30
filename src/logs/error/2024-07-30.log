@@ -1,0 +1,6 @@
+2024-07-30 16:07:53 error: uncaughtException: Cannot read properties of undefined (reading 'args')
+TypeError: Cannot read properties of undefined (reading 'args')
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:29:45
+    at Array.forEach (<anonymous>)
+    at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:20:33
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
