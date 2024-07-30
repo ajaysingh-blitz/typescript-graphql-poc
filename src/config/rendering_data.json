@@ -2825,6 +2825,82 @@
                   "has_more": true,
                   "total_count": 18
                 }
+              },
+              {
+                "entities": [
+                  {
+                    "name": "Rubi",
+                    "rating": "5",
+                    "review": "I just received my order, ( a day early!!). Products are AWESOME! I can't wait to gift them to my daughter.",
+                    "city": "Patna",
+                    "short_id": "fDZTPL5U",
+                    "review_date": "18/06/21",
+                    "media": []
+                  },
+                  {
+                    "name": "Rajalaxmi",
+                    "rating": "5",
+                    "review": "I am always impressed with the support I have been getting. Quick responses from the staff and accommodating my needs at times when requested encourage me to stay with ajaystore for future needs. Thank you.",
+                    "city": "Hyderabad",
+                    "short_id": "nfm0Iwn5",
+                    "review_date": "12/01/22",
+                    "media": []
+                  },
+                  {
+                    "name": "Namita",
+                    "rating": "5",
+                    "review": "I ordered several products...not only they were beautiful and exactly like the pictures, but they were also delivered extremely quickly to my home in Lucknow. Customer support is very goodl and immediate in their response time!! I am pleased with the quality and grateful for the excellent customer care. Thank you so much!!!",
+                    "city": "Lucknow",
+                    "short_id": "voNqNrG_",
+                    "review_date": "26/02/22",
+                    "media": []
+                  },
+                  {
+                    "name": "Amrita",
+                    "rating": "4",
+                    "review": "They treat the customer so generously also they hear our problems and try to solve them also they replied in WhatsApp quickly which I really liked. The package came before time, great packaging.",
+                    "city": "Guwahati",
+                    "short_id": "zrq3xFE5",
+                    "review_date": "09/08/21",
+                    "media": []
+                  },
+                  {
+                    "name": "Nirmala",
+                    "rating": "5",
+                    "review": "Lovely products. Great price and fast delivery. No hassle shopping. I will definitely be coming back",
+                    "city": "Cuttack",
+                    "short_id": "MdkO7qRH",
+                    "review_date": "15/10/20",
+                    "media": []
+                  },
+                  {
+                    "name": "Radhika",
+                    "rating": "4",
+                    "review": "Great service, fast shipping, and very reasonable prices for products of such quality! ajaystore is highly recommended.",
+                    "city": "Jaipur",
+                    "short_id": "TZybLQC5",
+                    "review_date": "10/02/21",
+                    "media": []
+                  },
+                  {
+                    "name": "Harish",
+                    "rating": "4",
+                    "review": "ajaystore provides excellent service with impressive delivery time. I had no idea that orders could be delivered in such a short time. Products are also of good quality at a very reasonable price. I have received my products in good condition and I am very happy.",
+                    "city": "Chennai",
+                    "short_id": "Yr1k8CrU",
+                    "review_date": "07/12/21",
+                    "media": []
+                  },
+                  {
+                    "name": "Ajay",
+                    "rating": "5",
+                    "review": "I ordered more than once and I will continue ordering from ajaystore. All the orders are exactly like advertised. And the delivery service is just woww. I definitely recommend ajaystore to my relatives and friends.",
+                    "city": "Amritsar",
+                    "short_id": "iaa73WyA",
+                    "review_date": "21/02/22",
+                    "media": []
+                  }
+                ]
               }
             ]
           },
@@ -3233,6 +3309,123 @@
                 }
               }
             }
+          },
+          "testimonial_template": {
+            "type": "container",
+            "args": {
+              "width": 360,
+              "decoration": {
+                "border": {
+                  "color": "#000000",
+                  "width": 1,
+                  "style": "solid",
+                  "opacity": 0.5
+                }
+              },
+              "padding": {
+                "left": 12,
+                "right": 12,
+                "top": 12,
+                "bottom": 12
+              },
+              "child": {
+                "type": "column",
+                "args": {
+                  "crossAxisAlignment": "start",
+                  "children": [
+                    {
+                      "type": "text",
+                      "args": {
+                        "text": "${value['name']}",
+                        "style": {
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                          "color": "#000000"
+                        }
+                      }
+                    },
+                    {
+                      "type": "row",
+                      "args": {
+                        "children": [
+                          {
+                            "type": "text",
+                            "args": {
+                              "text": "Verified Buyer ",
+                              "style": {
+                                "fontSize": 12,
+                                "color": "#000000"
+                              }
+                            }
+                          },                                              
+                          {
+                            "type": "text",
+                            "args": {
+                              "text": "• ",
+                              "style": {
+                                "fontSize": 12,
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "args": {
+                              "text": "${value['city']}",
+                              "style": {
+                                "fontSize": 12,
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "args": {
+                              "text": "• ",
+                              "style": {
+                                "fontSize": 12,
+                                "color": "#000000"
+                              }
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "args": {
+                              "text": "${value['review_date']}",
+                              "style": {
+                                "fontSize": 12,
+                                "color": "#000000"
+                              }
+                            }
+                          }  
+                        ]
+                      }
+                    },
+                    {
+                      "type": "icon",
+                      "args": {
+                        "icon": {
+                          "codePoint": "0xe5f9",
+                          "fontFamily": "MaterialIcons"
+                        },
+                        "size": 20
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "args": {
+                        "text": "${value['review']}",
+                        "style": {
+                          "fontSize": 12,
+                          "color": "#000000",
+                          "maxLines": 5
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
           }
         },
         "child": {
@@ -3251,6 +3444,57 @@
                   "type": "list_view",
                   "args": {
                     "children": [
+                      {
+                        "type": "text",
+                        "args": {
+                          "text": "Testimonial",
+                          "style": {
+                            "fontSize": 21,
+                            "fontWeight": "bold",
+                            "color": "#000000"
+                          }
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "args": {
+                          "text": "View All",
+                          "style": {
+                            "fontSize": 12,
+                            "decoration": "underline",
+                            "color": "#000000",
+                            "opacity": 0.5
+                          }
+                        }
+                      },
+  
+                      {
+                        "type": "padding",
+                        "args": {
+                          "padding": {                  
+                            "top": 24
+                          },
+                          "child": {
+                            "type": "container",
+                            "args": {
+                              "height": 230, 
+                              "child": {
+                                "type": "list_view",
+                                "args": {
+                                  "scrollDirection": "horizontal",
+                                  "separatorBuilder": {
+                                    "type": "sized_box",
+                                    "args": {
+                                      "width": 12
+                                    }
+                                  },
+                                  "children": "${for_each(entries['values'][5]['entities'], 'testimonial_template')}"
+                                }
+                              }
+                            }
+                          }
+                        }              
+                      },
                       {
                         "type": "container",
                         "args": {
