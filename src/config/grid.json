@@ -1,0 +1,17 @@
+{ "data" :
+  {
+    "type": "grid_view",
+    "args": {
+      "gridDelegate": {
+        "crossAxisCount": 2,
+        "childAspectRatio": 0.5,
+        "crossAxisSpacing": 8,
+        "mainAxisSpacing": 12,
+        "type": "fixed_cross_axis_count"
+      },
+      "scrollDirection": "vertical",
+      "shrinkWrap": true,
+      "children": "${for_each(entries['values'][1]['entities'], 'grid_template')}"
+    }
+  }
+}
