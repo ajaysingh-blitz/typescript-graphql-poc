@@ -888,4 +888,51 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
+<<<<<<< HEAD
+2024-07-30 13:07:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m48[0m - [91merror[0m[90m TS1110: [0mType expected.
 
+[7m18[0m             result.data.widgets.forEach((value:, index) => {
+[7m  [0m [91m                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m48[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m18[0m             result.data.widgets.forEach((value:, index) => {
+[7m  [0m [91m                                               ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 13:23:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m55[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m18[0m             result.data.widgets.forEach((value, index:) => {
+[7m  [0m [91m                                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m18[0m:[93m55[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m18[0m             result.data.widgets.forEach((value, index:) => {
+[7m  [0m [91m                                                      ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+=======
+
+>>>>>>> 7bc42e60813ac40d8d01cc1271081c5c4dac4537
