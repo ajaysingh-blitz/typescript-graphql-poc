@@ -3336,10 +3336,19 @@
             }
           },
           "testimonial_template": {
+              "type": "padding",
+              "args": {
+                "width": 360,
+                "height": 230,
+                "padding": {
+                  "top": 4,
+                  "bottom": 4,
+                  "left": 4,
+                  "right": 4
+                },
+                "child": {
             "type": "container",
             "args": {
-              "width": 360,
-              "height": 230,
               "decoration": {
                 "border": {
                   "color": "#000000",
@@ -3453,7 +3462,9 @@
               }
             }
           }
-        },
+          }
+        }
+      },
         "child": {
           "type": "scaffold",
           "args": {

@@ -1,0 +1,17 @@
+{
+    "data" : {
+        "type": "set_value",
+        "args": {
+            "values": {
+                "entries": {
+                    "values": []
+                }
+            }
+        },
+        "child": { 
+            "type": "scaffold",
+            "args": {
+            }
+        }
+    }
+}

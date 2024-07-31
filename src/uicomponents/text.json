@@ -1,0 +1,12 @@
+{
+    "type": "text",
+                          "args": {
+                            "text": "${value['content']['title']}",
+                            "style": {
+                              "color": "#000000",
+                              "fontSize": 12
+                            },
+                            "maxLines": 1,
+                            "overflow": "ellipsis"
+                          }
+}

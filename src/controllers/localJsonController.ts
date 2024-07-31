@@ -4,11 +4,16 @@ const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
 
+import { getTextView } from '../utils/uiutil';
+
+
 class LocalJsonController {
     private productService = new ProductService();
 
     public getJsonData = async (req: Request, res: Response, next: NextFunction) => {
         console.log(`request ${req.headers}`);
+
+        getTextView("title")
         let data
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {

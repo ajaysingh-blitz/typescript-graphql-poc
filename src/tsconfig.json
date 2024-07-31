@@ -34,7 +34,9 @@
         "@routes/*": ["routes/*"],
         "@services/*": ["services/*"],
         "@utils/*": ["utils/*"],
-        "@helpers/*": ["helpers/*"]
+        "@helpers/*": ["helpers/*"],
+        "@uicomponents/*": ["uicomponents/*"]
+
       }
     },
     "include": ["src/**/*.ts", "src/**/*.json", ".env"],

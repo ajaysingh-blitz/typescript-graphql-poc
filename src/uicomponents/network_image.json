@@ -1,0 +1,7 @@
+{
+    "type": "network_image",
+    "args": {
+      "src": "${value['src_url']}",
+      "fit": "cover"
+    }
+}
