@@ -46,8 +46,11 @@ export function getNetworkImage() {
     return network_image;
 }
 
-export function getPadding() {
-    console.log(`padding = ${JSON.stringify(padding)}`);
+export function getPadding(left: Number = 12, right: Number = 12, top: Number = 12, bottom: Number = 12 ) {
+    padding.padding.left = left
+    padding.padding.right  = right
+    padding.padding.top = top
+    padding.padding.botttom = bottom
     return padding;
 }
 

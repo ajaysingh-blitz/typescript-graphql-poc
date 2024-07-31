@@ -4,7 +4,7 @@ const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
 
-import { getTextView } from '../utils/uiutil';
+import { getPadding, getTextView } from '../utils/uiutil';
 
 
 class LocalJsonController {
@@ -14,6 +14,7 @@ class LocalJsonController {
         console.log(`request ${req.headers}`);
 
         getTextView("title")
+        getPadding(14, 14, 16, 16)
         let data
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {
