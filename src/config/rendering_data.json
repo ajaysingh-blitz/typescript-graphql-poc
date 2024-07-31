@@ -2901,6 +2901,32 @@
                     "media": []
                   }
                 ]
+              },
+              {
+                "short_id": "fehPyghS6y",
+                "type": "banner_cross_link",
+                "layout": "single",
+                "title": "Banner Cross Link",
+                "custom_style": {
+                  "title_alignment": "left",
+                  "background_color": "transparent",
+                  "is_background_image_repeat": false
+                },
+                "entities": [
+                  {
+                    "title": "dsfadm",
+                    "subtitle": "asf ageg",
+                    "cta_text": "submit now",
+                    "src_url": "https://cdn-image.blitzshopdeck.in/ShopdeckWebsiteAssetsStage/tr:f-webp,w-600,fo-auto/widgets/6569ab893a8edb92b828e42c/1701425611787_2Y4S4MVJ3J_2023-12-01_1.png",
+                    "link": "",
+                    "preview_url": "https://cdn-image.blitzshopdeck.in/ShopdeckWebsiteAssetsStage/tr:f-webp,w-600,q-50,bl-2,fo-auto/widgets/6569ab893a8edb92b828e42c/1701425611787_2Y4S4MVJ3J_2023-12-01_1.png",
+                    "type": "",
+                    "fit_image": false,
+                    "image_alignment": "",
+                    "content_alignment": "left"
+                  }
+                ],
+                "background_image": ""
               }
             ]
           },
@@ -3294,15 +3320,14 @@
           "banner_template": {
             "type": "container",
             "args": {
-              "width": 250,
-              "height": 50,
+              "width": 400,
               "child": {
                 "type": "card",
                 "args": {
                   "child": {
                     "type": "network_image",
                     "args": {
-                      "src": "${value['image']}",
+                      "src": "${value['src_url']}",
                       "fit": "cover"
                     }
                   }
@@ -3314,6 +3339,7 @@
             "type": "container",
             "args": {
               "width": 360,
+              "height": 230,
               "decoration": {
                 "border": {
                   "color": "#000000",

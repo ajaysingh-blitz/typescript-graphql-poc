@@ -1,0 +1,9 @@
+{ "data" :
+ {
+    "type": "list_view",
+    "args": {
+      "scrollDirection": "horizontal",
+      "children": "${for_each(entries['values'][0]['entities'], 'banner_template')}"
+    }
+ }
+}

@@ -1,8 +1,11 @@
 { "data" :
- {
-    "type": "container",
+  {
+    "type": "padding",
     "args": {
-      "height": 230,
+      "padding": {                  
+        "top": 24,
+        "bottom": 24
+      },
       "child": {
         "type": "list_view",
         "args": {
@@ -11,5 +14,5 @@
         }
       }
     }
- }
+  } 
 }

@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel } from '../config';
+import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel, bannerCrossLink } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
@@ -24,7 +24,7 @@ class LocalJsonController {
                   args: { 
                     ...carousel.args,
                     child: {
-                       ...carousel.args.child,
+                        ...carousel.args.child,
                        args: {
                         ...carousel.args.child.args,
                         children: `\${for_each(entries['values'][${index}]['entities'], 'context_media_template')}` 
@@ -35,13 +35,13 @@ class LocalJsonController {
               } 
               else if(value.type == "testimonial" && value.layout == "carousel"){
                 jsonDataUI.args.child.args.children[index] = {
-                  ...carousel,
+                  ...testimonialCarousel,
                   args: { 
-                    ...carousel.args,
+                    ...testimonialCarousel.args,
                     child: {
-                       ...carousel.args.child,
+                       ...testimonialCarousel.args.child,
                        args: {
-                        ...carousel.args.child.args,
+                        ...testimonialCarousel.args.child.args,
                         children: `\${for_each(entries['values'][${index}]['entities'], 'testimonial_template')}` 
                        }
                     }
@@ -86,9 +86,24 @@ class LocalJsonController {
               else if(value.type == "banner_cross_link" && value.layout == "multiple"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
+              else if(value.type == "banner_cross_link" && value.layout == "single"){
+                // jsonDataUI.args.child.args.children[index] = {
+                //   ...bannerCrossLink,
+                //   args: { 
+                //     ...bannerCrossLink.args,
+                //     child: {
+                //        ...bannerCrossLink.args.child,
+                //        args: {
+                //         ...bannerCrossLink.args.child.args,
+                //         children: `\${for_each(entries['values'][${index}]['entities'], 'banner_template')}` 
+                //        }
+                //     }
+                //   }
+                // }
+              }
               else if(value.type == "banner_cross_link_full" && value.layout == "single"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
-              }
+              }  
               else if(value.type == "website_navigator" && value.layout == "single"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }

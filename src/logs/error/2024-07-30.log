@@ -4,3 +4,45 @@ TypeError: Cannot read properties of undefined (reading 'args')
     at Array.forEach (<anonymous>)
     at /Users/suvidhapatekar/Downloads/typescript-graphql-poc/src/controllers/localJsonController.ts:20:33
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2024-07-30 17:36:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m106[0m:[93m15[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m106[0m               else if(value.type == "website_navigator" && value.layout == "single"){
+[7m   [0m [91m              ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m124[0m:[93m14[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m124[0m             });
+[7m   [0m [91m             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/localJsonController.ts[0m:[93m106[0m:[93m15[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m106[0m               else if(value.type == "website_navigator" && value.layout == "single"){
+[7m   [0m [91m              ~~~~[0m
+[96msrc/controllers/localJsonController.ts[0m:[93m124[0m:[93m14[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m124[0m             });
+[7m   [0m [91m             ~[0m
+
+    at createTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:863:19)
+    at C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\ShopDeck\typescript-graphql-poc\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-07-30 18:10:47 error: uncaughtException: Cannot read properties of undefined (reading 'args')
+TypeError: Cannot read properties of undefined (reading 'args')
+    at C:\ShopDeck\typescript-graphql-poc\src\controllers\localJsonController.ts:97:55
+    at Array.forEach (<anonymous>)
+    at C:\ShopDeck\typescript-graphql-poc\src\controllers\localJsonController.ts:20:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-30 18:11:14 error: uncaughtException: Cannot read properties of undefined (reading 'args')
+TypeError: Cannot read properties of undefined (reading 'args')
+    at C:\ShopDeck\typescript-graphql-poc\src\controllers\localJsonController.ts:97:55
+    at Array.forEach (<anonymous>)
+    at C:\ShopDeck\typescript-graphql-poc\src\controllers\localJsonController.ts:20:33
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

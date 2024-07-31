@@ -26,6 +26,8 @@ nconf.argv().env().file({ file: 'src/config/grid.json' });
 export const grid = nconf.get('data');
 nconf.argv().env().file({ file: 'src/config/testimonial_carousel.json' });
 export const testimonialCarousel = nconf.get('data');
+nconf.argv().env().file({ file: 'src/config/banner_cross_link.json' });
+export const bannerCrossLink = nconf.get('data');
 
 
 let config = {} as IConfig;
