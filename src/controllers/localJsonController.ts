@@ -4,7 +4,7 @@ const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
 
-import { getPadding, getTextView, getNetworkImage, getRow} from '../utils/uiutil';
+import { getPadding, getTextView, getNetworkImage, getRow, getContainer, getListView, getPageView, getScaffold, getColumn} from '../utils/uiutil';
 
 
 class LocalJsonController {
@@ -12,9 +12,9 @@ class LocalJsonController {
 
     public getJsonData = async (req: Request, res: Response, next: NextFunction) => {
         console.log(`request ${req.headers}`);
+  
+        getScaffold(getTextView("test"))
 
-      
-        getRow([getTextView("title")])
         let data
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {

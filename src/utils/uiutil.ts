@@ -15,7 +15,8 @@ export function getPageView() {
     return page;
 }
 
-export function getScaffold() {
+export function getScaffold(body: JSON) {
+    scaffold.args.body = body
     console.log(`scaffold = ${JSON.stringify(scaffold)}`);
     return scaffold;
 }
@@ -26,18 +27,24 @@ export function getTextView(title: String) {
     return text;
 }
 
-export function getColumn() {
+export function getColumn(children: JSON[]) {
+    column.args.children = children
     console.log(`column = ${JSON.stringify(column)}`);
     return column;
 }
 
-export function getContainer() {
+
+export function getContainer(height: Number, width: Number, child: JSON) {
+    container.args.height = height
+    container.args.width = width
+    container.args.child = child
     console.log(`container = ${JSON.stringify(container)}`);
     return container;
 }
 
-export function getListView() {
-    console.log(`list_view = ${JSON.stringify(list_view)}`);
+export function getListView(children: JSON[]) {
+    list_view.args.children = children
+    console.log(`column = ${JSON.stringify(list_view)}`);
     return list_view;
 }
 
