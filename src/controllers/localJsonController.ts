@@ -4,7 +4,7 @@ const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
 
-import { getPadding, getTextView } from '../utils/uiutil';
+import { getPadding, getTextView, getNetworkImage} from '../utils/uiutil';
 
 
 class LocalJsonController {
@@ -13,8 +13,8 @@ class LocalJsonController {
     public getJsonData = async (req: Request, res: Response, next: NextFunction) => {
         console.log(`request ${req.headers}`);
 
-        getTextView("title")
-        getPadding(14, 14, 16, 16)
+      
+        getNetworkImage("test")
         let data
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {

@@ -41,8 +41,8 @@ export function getListView() {
     return list_view;
 }
 
-export function getNetworkImage() {
-    console.log(`network_image = ${JSON.stringify(network_image)}`);
+export function getNetworkImage(srcUrl: String) {
+    network_image.args.src = srcUrl
     return network_image;
 }
 
