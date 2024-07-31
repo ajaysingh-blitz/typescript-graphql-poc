@@ -1,9 +1,16 @@
-{ "data" :
- {
-    "type": "list_view",
+{
+  "data": {
+    "type": "container",
     "args": {
-      "scrollDirection": "horizontal",
-      "children": "${for_each(entries['values'][0]['entities'], 'banner_template')}"
+      "height": 250,      
+      "child": {
+        "type": "list_view",
+        "args": {
+          "scrollDirection": "horizontal",
+          "shrinkWrap": true,
+          "children": "${for_each(entries['values'][1]['entities'], 'banner_template')}"
+        }
+      }
     }
- }
+  }
 }

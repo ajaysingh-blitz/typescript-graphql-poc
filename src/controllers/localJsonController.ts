@@ -1,6 +1,6 @@
 
 import { NextFunction, Request, Response } from 'express';
-import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel, bannerCrossLink } from '../config';
+import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel, banner } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
@@ -41,8 +41,14 @@ class LocalJsonController {
                     child: {
                        ...testimonialCarousel.args.child,
                        args: {
-                        ...testimonialCarousel.args.child.args,
-                        children: `\${for_each(entries['values'][${index}]['entities'], 'testimonial_template')}` 
+                          ...testimonialCarousel.args.child.args,
+                          child: {
+                            ...testimonialCarousel.args.child.args.child,
+                            args: {
+                              ...testimonialCarousel.args.child.args.child.args,
+                              children: `\${for_each(entries['values'][${index}]['entities'], 'testimonial_template')}` 
+                            }
+                          }
                        }
                     }
                   }
@@ -86,21 +92,20 @@ class LocalJsonController {
               else if(value.type == "banner_cross_link" && value.layout == "multiple"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
-              else if(value.type == "banner_cross_link" && value.layout == "single"){
-                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
-                // jsonDataUI.args.child.args.children[index] = {
-                //   ...bannerCrossLink,
-                //   args: { 
-                //     ...bannerCrossLink.args,
-                //     child: {
-                //        ...bannerCrossLink.args.child,
-                //        args: {
-                //         ...bannerCrossLink.args.child.args,
-                //         children: `\${for_each(entries['values'][${index}]['entities'], 'banner_template')}` 
-                //        }
-                //     }
-                //   }
-                // }
+              else if(value.type == "banner_cross_link" && value.layout == "single"){                              
+                jsonDataUI.args.child.args.children[index] = {
+                  ...banner,
+                  args: { 
+                    ...banner.args,
+                    child: {
+                       ...banner.args.child,
+                       args: {
+                        ...banner.args.child.args,
+                        children: `\${for_each(entries['values'][${index}]['entities'], 'banner_template')}` 
+                       }
+                    }
+                  }
+                }
               }
               else if(value.type == "banner_cross_link_full" && value.layout == "single"){
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)

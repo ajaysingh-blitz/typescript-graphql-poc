@@ -3318,21 +3318,80 @@
             }
           },
           "banner_template": {
-            "type": "container",
+            "type": "stack",
             "args": {
-              "width": 400,
-              "child": {
-                "type": "card",
-                "args": {
-                  "child": {
-                    "type": "network_image",
-                    "args": {
-                      "src": "${value['src_url']}",
-                      "fit": "cover"
-                    }
+              "alignment": "bottomCenter",
+              "children": [
+                {
+                  "type": "network_image",
+                  "args": {
+                    "src": "${value['src_url']}",
+                    "fit": "cover"
                   }
+                },
+                {
+                  "type": "padding",
+                  "args": {
+                    "padding": {
+                      "bottom": 12  
+                    }, 
+                    "child": {
+                      "type": "container",
+                      "args": {
+                        "key": "container_1",
+                        "alignment": "bottomCenter",
+                        "color": "#FFFFFF", 
+                        "height": 100,
+                        "width": 220,                                          
+                        "child": {
+                          "type": "column",
+                          "args": {
+                            "mainAxisAlignment": "center",
+                            "crossAxisAlignment": "center",
+                            "mainAxisSize": "min",
+                            "children": [
+                              {
+                                "type": "text",
+                                "args": {
+                                  "text": "${value['title']}",
+                                  "style": {
+                                    "color": "#000000",
+                                    "fontSize": 16                                  
+                                  },
+                                  "maxLines": 1,
+                                  "overflow": "ellipsis"
+                                }
+                              },
+                              {
+                                "type": "padding",
+                                "args": {
+                                  "padding": {
+                                    "bottom": 12  
+                                  }, 
+                                  "child": {
+                                    "type": "text_button",
+                                    "args": {
+                                      "style": {
+                                        "foregroundColor": "#ffffff"
+                                      },
+                                      "child": {
+                                        "type": "text",
+                                        "args": {
+                                          "text": "${value['cta_text']}"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }                  
                 }
-              }
+              ]
             }
           },
           "testimonial_template": {
