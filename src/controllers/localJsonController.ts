@@ -1,10 +1,8 @@
-
 import { NextFunction, Request, Response } from 'express';
 import { jsonData, jsonDataUI, carousel, grid, testimonialCarousel, bannerCrossLink } from '../config';
 const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
-var localgrid = grid
 
 class LocalJsonController {
     private productService = new ProductService();
