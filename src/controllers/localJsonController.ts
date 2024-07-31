@@ -87,6 +87,7 @@ class LocalJsonController {
                 console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
               }
               else if(value.type == "banner_cross_link" && value.layout == "single"){
+                console.log(`inside foreach and for value type ${value.type} and ${value.layout}`)
                 // jsonDataUI.args.child.args.children[index] = {
                 //   ...bannerCrossLink,
                 //   args: { 
