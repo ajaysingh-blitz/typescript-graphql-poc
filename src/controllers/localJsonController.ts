@@ -4,7 +4,7 @@ const filename = '../config/rendering_data';
 import ProductService from '@/services/product.service';
 import { child } from 'winston';
 
-import { getPadding, getTextView, getNetworkImage} from '../utils/uiutil';
+import { getPadding, getTextView, getNetworkImage, getRow} from '../utils/uiutil';
 
 
 class LocalJsonController {
@@ -14,7 +14,7 @@ class LocalJsonController {
         console.log(`request ${req.headers}`);
 
       
-        getNetworkImage("test")
+        getRow([getTextView("title")])
         let data
         try {
           this.productService.getPageDetailsById("EeF9iVr5jC").then(result => {

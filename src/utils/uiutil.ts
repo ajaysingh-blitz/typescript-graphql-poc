@@ -54,7 +54,8 @@ export function getPadding(left: Number = 12, right: Number = 12, top: Number = 
     return padding;
 }
 
-export function getRow() {
+export function getRow(children: JSON[]) {
+    row.args.children = children
     console.log(`row = ${JSON.stringify(row)}`);
     return row;
 }
