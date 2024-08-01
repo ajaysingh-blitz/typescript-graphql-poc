@@ -132,9 +132,9 @@ class LocalJsonController {
 
         //     console.log(`inside getPageDetailsById jsonDataUI ${jsonDataUI} and data = ${jsonData}`)
 
-        //     return res.status(200).json({
+        //     return res.status(200).json(
         //       jsonData
-        //     }); 
+        //     ); 
         //   });
           
         // } catch (error) {

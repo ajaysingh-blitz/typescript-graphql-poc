@@ -24,7 +24,6 @@ export function getScaffold(body: JSON) {
             }
         }
     }
-    //scaffold.args.body = body
 }
 
 export function getTextView(title: String) {
@@ -45,7 +44,6 @@ export function getColumn(children: JSON[]) {
             children : children
         }
     }
-   // column.args.children = children
 }
 
 
@@ -60,13 +58,6 @@ export function getContainer(height: Number, width: Number, child: JSON) {
             child : child
         }
     }
-    
-
-    // container.args.height = height
-    // container.args.width = width
-    // container.args.child = child
-    // console.log(`container = ${JSON.stringify(container)}`);
-    // return container;
 }
 
 export function getListView(scrollDirection: String, children: JSON[]) {
@@ -111,14 +102,6 @@ export function getPadding(left: Number, right: Number, top: Number, bottom: Num
         child : child
     }
    } 
-
-
-    // padding.args.padding.left = left
-    // padding.args.padding.right  = right
-    // padding.args.padding.top = top
-    // padding.args.padding.bottom = bottom
-    // padding.args.child = child
-    // return padding;
 }
 
 export function getRow(children: JSON[]) {
@@ -129,7 +112,4 @@ export function getRow(children: JSON[]) {
             children : children
         }
     }
-    // row.args.children = children
-    // console.log(`row = ${JSON.stringify(row)}`);
-    // return row;
 }
