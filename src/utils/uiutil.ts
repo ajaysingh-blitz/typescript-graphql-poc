@@ -11,58 +11,125 @@ import row from '@/uicomponents/row.json';
 
 
 export function getPageView() {
-    console.log(`page = ${JSON.stringify(page)}`);
     return page;
 }
 
 export function getScaffold(body: JSON) {
-    scaffold.args.body = body
-    console.log(`scaffold = ${JSON.stringify(scaffold)}`);
-    return scaffold;
+    return {
+        ...scaffold,
+        args : {
+            ...scaffold.args,
+            body : {
+                body : body
+            }
+        }
+    }
+    //scaffold.args.body = body
 }
 
 export function getTextView(title: String) {
-    text.args.text = title
-    console.log(`text = ${JSON.stringify(text)}`);
-    return text;
+    return {
+        ...text,
+        args : {
+            ...text.args,
+            text : title
+        }
+    }
 }
 
 export function getColumn(children: JSON[]) {
-    column.args.children = children
-    console.log(`column = ${JSON.stringify(column)}`);
-    return column;
+    return {
+        ...column,
+        args : {
+            ...column.args,
+            children : children
+        }
+    }
+   // column.args.children = children
 }
 
 
 export function getContainer(height: Number, width: Number, child: JSON) {
-    container.args.height = height
-    container.args.width = width
-    container.args.child = child
-    console.log(`container = ${JSON.stringify(container)}`);
-    return container;
+    
+    return {
+        ...container,
+        args : {
+            ...container.args,
+            height : height,
+            width : width,
+            child : child
+        }
+    }
+    
+
+    // container.args.height = height
+    // container.args.width = width
+    // container.args.child = child
+    // console.log(`container = ${JSON.stringify(container)}`);
+    // return container;
 }
 
-export function getListView(children: JSON[]) {
-    list_view.args.children = children
-    console.log(`column = ${JSON.stringify(list_view)}`);
-    return list_view;
+export function getListView(scrollDirection: String, children: JSON[]) {
+    return {
+        ...list_view,
+        args : {
+            ...list_view.args,
+            scrollDirection : scrollDirection,
+            children : children
+        }
+    }
+    // list_view.args.scrollDirection = scrollDirection
+    // list_view.args.children = children
+    // console.log(`column = ${JSON.stringify(list_view)}`);
+    // return list_view;
 }
 
 export function getNetworkImage(srcUrl: String) {
-    network_image.args.src = srcUrl
-    return network_image;
+   return {
+    ...network_image,
+    args : {
+        ...network_image.args,
+        srcUrl : srcUrl
+    }
+   }
+
+    // network_image.args.src = srcUrl
+    // return network_image;
 }
 
-export function getPadding(left: Number = 12, right: Number = 12, top: Number = 12, bottom: Number = 12 ) {
-    padding.padding.left = left
-    padding.padding.right  = right
-    padding.padding.top = top
-    padding.padding.botttom = bottom
-    return padding;
+export function getPadding(left: Number, right: Number, top: Number, bottom: Number, child: JSON) {
+   return {
+    ...padding, 
+    args : {
+        ...padding.args,
+        padding : {
+          left: left,
+          right: right,
+          top: top,
+          bottom: bottom
+        },
+        child : child
+    }
+   } 
+
+
+    // padding.args.padding.left = left
+    // padding.args.padding.right  = right
+    // padding.args.padding.top = top
+    // padding.args.padding.bottom = bottom
+    // padding.args.child = child
+    // return padding;
 }
 
 export function getRow(children: JSON[]) {
-    row.args.children = children
-    console.log(`row = ${JSON.stringify(row)}`);
-    return row;
+    return {
+        ...row, 
+        args : {
+            ...row.args,
+            children : children
+        }
+    }
+    // row.args.children = children
+    // console.log(`row = ${JSON.stringify(row)}`);
+    // return row;
 }

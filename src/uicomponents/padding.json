@@ -1,8 +1,17 @@
 {
-    "padding": {
+    "type" : "padding",
+            "args": {    
+               "padding" : {
                   "left": 12,
                   "top": 12,
                   "right": 12,
                   "bottom": 12
-                }
+                },
+          
+            "child" : {
+            
+            }
+
+          }
+
 }
